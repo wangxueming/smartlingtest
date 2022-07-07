@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login登录页 -->
+    <string name="account_login_title">Hello,\nWelcome back</string>
+    <string name="account_login_tab_phone">Phone</string>
+    <string name="account_login_tab_email">Email</string>
+    <string name="account_login_hint_phone">Enter Phone</string>
+    <string name="account_login_hint_email">Enter Email</string>
+    <string name="account_login_hint_pwd">Enter your password</string>
+    <string name="account_login_btn_forgot_pwd">Forgot Password？</string>
+    <string name="account_login_btn_login">LOGIN</string>
+    <string name="account_login_tips_no_register">Not registered?</string>
+    <string name="account_login_btn_sign_up">SIGN UP</string>
+    <string name="account_login_toast_succ">Logged in Successfully</string>
+    <string name="account_login_alert_invalid_phone">Your phone number is invalid, please try again</string>
+    <string name="account_login_alert_invalid_email">Your email address is invalid, please try again</string>
+    <string name="account_login_alert_null_pwd">Enter your password</string>
+    <string name="account_login_alert_invalid_title">Note</string>
+    <string name="account_login_alert_invalid_btn_confirm">OK</string>
+</resources>
