@@ -54,9 +54,9 @@
          // Translation set with manual authorization. You should go to Smartling and authorize strings for translation after upload.
          // Original resources have "_en" suffix and this suffix will be replaced with target locale in translations.
          {
-            "type"                      : "xml",
+            "type"                      : "android",
             "authorizeContent"          : false,
-            "pathRegex"                 : "messages\\/.*_en\\.xml",
+            "pathRegex"                 : "b_account\\/src\\/main\\/res\\/values\\/test_strings\\.xml",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"
          },
 
