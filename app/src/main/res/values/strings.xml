@@ -1,0 +1,559 @@
+<resources>
+    <string name="app_name">BitMart</string>
+
+
+    <string name="main_home">Home</string>
+    <string name="main_market">Markets</string>
+    <string name="main_trade">Trade</string>
+    <string name="main_contract">Futures</string>
+    <string name="main_assets">Assets</string>
+
+    <string name="root_warring">Your device appears to be rooted. The security of your app can be compromised.</string>
+
+    <!--    <string name="account_face_auth_btn_login">LOGIN</string>-->
+    <!--    <string name="login_pass">Password</string>-->
+    <!--    <string name="account_user_info_ga_unbind_title">Google Authenticator Code</string>-->
+    <!--    <string name="account_user_info_sms_auth_verify_code_title">Verification Code</string>-->
+    <!--    <string name="account_user_info_email_auth_verify_code_title">Verification Code</string>-->
+    <!--    <string name="account_user_info_toast_invalid_identity_code">Enter your verification code</string>-->
+    <!--    <string name="account_user_info_sms_auth_verify_code_subtitle">Verification code</string>-->
+    <!--    <string name="account_user_info_email_auth_verify_code_tips">Sent to %s</string>-->
+    <!--    <string name="account_user_info_sms_auth_verify_code_tips">Sent to %s</string>-->
+    <!--    <string name="account_register_btn_sign_up">SIGN UP</string>-->
+    <!--    <string name="account_widget_liv_input_phone">Enter your phone number</string>-->
+
+    <string name="spot_ok">OK</string>
+    <string name="spot_cancel">Cancel</string>
+    <string name="check">Check it out</string>
+
+    <!--    <string name="account_change_pwd_old_pwd_title">Old Password</string>-->
+
+    <!--    <string name="account_user_info_ga_bind_tips">Google Authenticator</string>-->
+    <!--    <string name="account_message_bar_title">Messages</string>-->
+    <!--    <string name="account_user_info_touch_id">Touch ID</string>-->
+    <!--    <string name="account_setting_about_bar_title">About</string>-->
+    <!--    <string name="save_qr">Save to Album</string>-->
+
+
+    <!--    <string name="account_unlock_fingerprint_tip_type_init">Enable Fingerprint Unlock</string>-->
+    <!--    <string name="account_unlock_fingerprint_alert_content">Verify Your Fingerprint</string>-->
+    <!--    <string name="account_unlock_fingerprint_tip_type_open">Enable Fingerprint Unlock</string>-->
+    <!--    <string name="account_unlock_gesture_tip_type_unlock">Pattern Unlock</string>-->
+    <!--    <string name="account_unlock_gesture_tip_type_open">Draw Your Pattern</string>-->
+    <!--    <string name="account_unlock_gesture_tip_type_init">Enable Pattern Unlock</string>-->
+    <!--    <string name="account_unlock_gesture_toast_four_point">Connect at least 4 dots. Try again</string>-->
+    <!--    <string name="account_unlock_gesture_err_tip_null_gesture">Confirm Unlock Pattern</string>-->
+    <!--    <string name="account_unlock_gesture_err_tip_no_match">The patterns don\'t match</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_toast_null">Input error</string>-->
+    <!--    <string name="account_user_info_alert_invalid_code_content">Please enter your verification code</string>-->
+    <!--    <string name="account_user_info_auth_verify_err_tips_sms">Please enter your SMS verification code</string>-->
+    <!--    <string name="account_user_info_auth_verify_err_tips_email">Please enter your EMail verification code</string>-->
+    <!--    <string name="account_user_info_auth_verify_err_tips_ga">Please enter your Google verification code</string>-->
+    <!--    <string name="account_register_toast_modify_success">Edited Successfully</string>-->
+    <!--    <string name="account_login_toast_succ">Logged in Successfully</string>-->
+    <!--    <string name="account_unlock_fingerprint_toast_invalid_fingerprint">Fingerprint verification failed, you have %d chance(s) to try</string>-->
+    <!--    <string name="account_unlock_gesture_err_tip_over_limit">Please try again later</string>-->
+    <!--    <string name="account_unlock_gesture_toast_complete">Setting completed</string>-->
+    <!--    <string name="account_unlock_fingerprint_toast_user_enable">You should set up a fingerprint ID in your phone.</string>-->
+
+    <!-- <string name="account_assets_transfer_toast_success">Transfer successful.</string> -->
+
+    <!--    <string name="account_forgot_pwd_alert_invalid_email">Your email address is invalid, please try again</string>-->
+    <!--    <string name="account_forgot_pwd_alert_invalid_phone">Your phone number is invalid, please try again</string>-->
+    <!-- 添加 -->
+
+    <!--    <string name="account_base_loading">Loading...</string>-->
+
+    <!--    <string name="account_unlock_btn_use_pwd">Login using password</string>-->
+    <!--    <string name="account_register_tips_protocol_agree">"I agree to "</string>  //Continuing means you\'ve read and agreed to our-->
+
+    <!--    <string name="account_register_err_tips_pwd_no_match">Passwords do not match</string>-->
+    <!--    <string name="account_login_btn_forgot_pwd">Forgot Password？</string>-->
+    <!--    <string name="account_unlock_fingerprint_tip_type_close">Disable Fingerprint Unlock</string>-->
+    <!--    <string name="date">Date</string>-->
+
+    <!-- 更新部分 -->
+    <!--    <string name="account_update_title">Update Available</string>-->
+    <!--    <string name="account_setting_about_version_toast_update">Update to the latest version %s</string>-->
+    <!--    <string name="account_update">Update</string>-->
+    <!--    <string name="account_update_latter">Not now</string>-->
+    <!-- 充值弹框 -->
+    <!--    <string name="account_setting_invite_detail_tab_status">Status</string>-->
+    <string name="click_again_exit">Click again to exit the app</string>
+    <!-- 1.1.0 添加 -->
+    <!--    <string name="account_safe">Account Security</string>-->
+    <!--    <string name="account_user_info_sms_auth_unbind_title">Phone Number</string>-->
+    <!--    <string name="account_user_info_ga_backup_key_title">Backup your key</string>-->
+    <!--    <string name="account_user_info_ga_backup_key_tips">Setup Google Authentication with this 16-digits code. Write it down and keep it safe. You can use this code to regain access to your account if you lose your phone.</string>-->
+    <!--    <string name="account_user_info_ga_unbind_tips">Enabling Google 2FA is strongly recommended to protect your account.</string>-->
+    <!--    <string name="account_user_info_ga_unbind_btn_enbale_ga">How to enable Google 2FA</string>-->
+    <!--    <string name="account_user_info_ga_verify_code_title">Google 2FA Code</string>-->
+    <!--    <string name="account_user_info_ga_verify_code_tips">Enter the Google Authenticator Code</string>-->
+    <!--    <string name="account_user_info_ga_unbind_btn_next">Enable now</string>-->
+    <!--    <string name="account_user_info_bind_result_ga_tips">Your account is protected by Google 2FA.</string>-->
+    <!--    <string name="account_user_info_email_auth_unbind_subtitle">Email</string>-->
+
+    <!--    <string name="account_user_info_bind_result_btn_change">Change</string>-->
+    <!--    <string name="account_user_info_bind_result_sms_btn">Change Mobile</string>-->
+    <!--    <string name="account_user_info_bind_result_email_btn">Change Email</string>-->
+    <!--    <string name="account_setting_about_btn_update">Check for Updates</string>-->
+    <!--    <string name="account_setting_about_version_toast_lastest_version">This is the latest version.</string>-->
+    <!--    <string name="account_web_ga_bar_title">Google Auth Help</string>-->
+    //改为Invitation
+    <!--    <string name="account_user_info_bind_result_email_tips">Email</string>-->
+    <!--    <string name="account_user_info_bind_result_sms_tips">Phone number associated with your account</string>-->
+    <string name="spot_collection">Favorites</string>
+
+
+    <!--1.2.3-->
+    <!--    <string name="account_setting_invite_detail_item_rewarded">Paid</string>-->
+    <!--    <string name="account_setting_invite_invite_code">Invitation Code</string>-->
+    <!--    <string name="account_setting_invite_btn_invite">Invite</string>-->
+    <!--    <string name="account_setting_invite_my_commission_title">My Commission</string>-->
+    <!--    <string name="account_change_pwd_succ_page_tips">Please login in or withdraw using your new password.</string>-->
+    <!--    <string name="account_change_pwd_succ_page_btn_confirm">Password Changed</string>-->
+    <!--    <string name="account_failed_reason">Reason for failure</string>-->
+    <!--    <string name="account_user_info_id_verify_tip_verify_failed">Verify failed</string>-->
+
+    <!--    <string name="account_setting_title_currency">Currency</string>-->
+    <!--    <string name="account_setting_invite_my_referrals_title">My Referral</string>-->
+    <!--    <string name="account_setting_invite_my_referrals_friends">Friends</string>-->
+    <!--    <string name="account_bmx_reward">BMX Reward</string>-->
+    <!--    <string name="account_setting_invite_my_commission_yesterday">Yesterday\'s</string>-->
+    <!--    <string name="account_setting_invite_my_commission_total">Total</string>-->
+    <!--    <string name="account_setting_invite_my_referrals_details">Details</string>-->
+    <!--    <string name="account_setting_invite_detail_bar_title">Referral Details</string>-->
+    <!--    <string name="account_setting_invite_detail_tab_username">Username</string>-->
+    <!--    <string name="account_setting_invite_detail_tab_bmxreward">Reward (BMX)</string>-->
+    <!--    <string name="account_setting_invite_detail_tab_amount">Commission (BTC)</string>-->
+    <!--    <string name="account_setting_invite_detail_bar_title_commission">Commission Details</string>-->
+    <!--    <string name="account_setting_invite_bar_title">Refer A Friend</string>-->
+    <!--    <string name="account_setting_invite_marquee_earned">earned</string>-->
+    <!--    <string name="account_setting_invite_detail_referral_value_locked">Locked</string>-->
+    <!--    <string name="account_setting_invite_detail_referral_value_unlocked">Unlocked</string>-->
+    <!--    <string name="account_user_info_pay">Pay fees using BMX:Enjoy discount</string>-->
+    <string name="root_title">Warning</string>
+
+    <!--    <string name="account_forgot_pwd_title">Forgot password</string>-->
+
+    <!--market-->
+    <string name="spot_market_fiat_trading">Buy &#038; Sell Crypto</string>
+    <string name="spot_market_fiat_trading_tip">Visa/Mastercard/Apple Pay/Bank Transfer</string>
+    <string name="market_help">Help</string>
+    <string name="market_help_tip">Help Center</string>
+    <string name="market_wechat">Wechat</string>
+    <string name="market_moments">Moments</string>
+    <string name="market_weibo">Weibo</string>
+    <string name="market_telegram">Telegram</string>
+    <string name="market_fb">Facebook</string>
+    <string name="market_twitter">Twitter</string>
+    <string name="market_save_pic">Save picture</string>
+    <string name="market_share_tip">Buy &#038; Sell Crypto Instantly</string>
+    <string name="market_subscribe_title">Popular Pairs</string>
+    <string name="market_popular_search">Popular Search</string>
+    <string name="market_latest">Latest</string>
+    <string name="market_clear">Clear</string>
+    <string name="market_remind">Alert</string>
+    <string name="market_enter_price">Enter Price</string>
+    <string name="market_up_to">Up to</string>
+    <string name="market_down_to">Down to</string>
+    <string name="market_create_alert">Create Alert</string>
+    <string name="market_remind_tip">Notice: Please keep APP active in the background of your phone and turn on the notification function. The push function is affected by the model and system, and you may not be able to receive market alert in time. Please pay attention to risk control.</string>
+    <string name="market_select_all">Select All</string>
+    <string name="market_delete">Delete</string>
+    <string name="market_done">Done</string>
+    <string name="market_all_alert">Alert</string>
+    <string name="market_pairs">Pairs</string>
+    <string name="market_rules">Rules</string>
+    <string name="market_opt">Operation</string>
+    <string name="market_no_alert">No alert has been created.</string>
+    <string name="market_repeat_create_alert">The rule already exists, please do not set it repeatedly.</string>
+    <string name="market_max_alerts">%s can set up to 5 alerts.</string>
+    <string name="market_notify_guide">You need to turn on the notification function to receive price alert.</string>
+    <string name="market_exit">Exit</string>
+    <string name="market_enable">Enable</string>
+    <string name="spot_market_more">More</string>
+
+
+    <!--trading-->
+    <!--    <string name="account_assets_transfer_toast_invalid_amount">The transfer amount error</string>-->
+    <!--    <string name="account_assets_transfer_toast_amount_over_limit">The transfer amount cannot be less than %s</string>-->
+    <!--    <string name="account_assets_transfer_alert_not_allow_transfer_2_future_tips">You are not allowed to transfer to future account</string>-->
+    <!--    <string name="account_assets_transfer_alert_not_allow_transfer_2_fiat_tips">You are not allowed to transfer to Buy &#038; Sell account</string>-->
+
+
+    <!--account-->
+    <!--    <string name="account_change_pwd_tips">After changing the password, you are not allowed to withdraw for the next 24 hours.</string>-->
+    <!--    <string name="account_phone_or_email">Phone/Email</string>-->
+    <!--    <string name="account_login_hint_email">Enter Email</string>-->
+    <!--    <string name="account_login_hint_phone">Enter Phone</string>-->
+    <!--    <string name="account_login_title">Hello,\nWelcome back</string>-->
+    <!--    <string name="account_login_auth_device_bar_title">Authorize Device</string>-->
+    <!--    <string name="account_login_auth_device_title">Authorize New Device</string>-->
+    <!--    <string name="account_login_auth_device_tips">You recently attempted to sign in to your BitMart account from a new device or in a new location. As a security measure, we require additional confirmation before allowing access to your BitMart account.</string>-->
+    <!--    <string name="account_login_auth_device_location_info">Location********:%s</string>-->
+    <!--    <string name="account_login_auth_device_ip_info">IP Address****:%s</string>-->
+    <!--    <string name="account_login_auth_device_device_info">Device*************:%s</string>-->
+    <!--    <string name="account_auth_code_tips">A verification code has been sent to your %s</string>-->
+    <!--    <string name="account_assets_buy_sell_equity_title">Equity (BTC)</string>-->
+    <!--    <string name="account_contract_balance">Futures Value (BTC)</string>-->
+    <!--    <string name="account_buy_sell">Buy/Sell</string>-->
+    <!--    <string name="account_wallet_balance">Wallet Balance</string>-->
+    <!--    <string name="account_margin_balance">Margin Balance</string>-->
+    <!--    <string name="account_order_margin">Order Margin</string>-->
+    <!--    <string name="account_position_margin">Position Margin</string>-->
+    <!--    <string name="account_unrealized">Unrealized PNL</string>-->
+    <!--    <string name="account_transfer_amount">Transfer Amount</string>-->
+    <!--    <string name="account_enter_transfer_amount">Enter transfer amount</string>-->
+    <!--    <string name="account_available">Available %s </string>-->
+    <!--    <string name="account_assets_transfer_err_tips_available">Please enter an amount no higher than your available balance.</string>-->
+
+
+    <!--    <string name="account_assets_transfer_available_tips_content">Transfer between accounts are credited in a real-time manner and free of charge.</string>-->
+
+
+    <!--    <string name="account_transfer_tips">Tips：\nThe transferred assets will be reviewed by BitMart risk control system. It is expected to arrive in 30 minutes. Please wait patiently.</string>-->
+    <!--    <string name="account_assets_transfer_option_futures">Futures</string>-->
+    <!--    <string name="account_assets_transfer_option_fiat">Buy &#038; Sell Account</string>-->
+    <!--    <string name="account_start_verification">Start Verification</string>-->
+    <!--    <string name="account_ocr_tips">Please complete the operation by yourself</string>-->
+    <!--    <string name="account_start_identify">Start Identify</string>-->
+    <!--    <string name="account_face_tips">Please complete the operation by yourself\n Place your face horizontally at the screen for video recording</string>-->
+    <!--    <string name="account_message_detail_tip_more">More ></string>-->
+    <!--    <string name="account_kyc_tip">Please complete the advanced identity verification to use the futures service.</string>-->
+    <!--    <string name="account_identify_advanced_btn_verify_now">Verify Now</string>-->
+    <!--    <string name="account_user_info_id_verify_tips_under_review">Under Review</string>-->
+    <!--    <string name="account_buy">Buy</string>-->
+    <!--    <string name="account_sell">Sell</string>-->
+    <!--    <string name="account_user_info_id_verify_title">Identity Verification</string>-->
+    <!--    <string name="account_current_level">Current level: Level %s</string>-->
+    <!--    <string name="account_level">Level</string>-->
+    <!--    <string name="account_completed">Completed</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_deposit">Deposit</string>-->
+    <!--    <string name="account_deposit_now">Deposit Now</string>-->
+    <!--    <string name="account_user_info_id_verify_option_withdraw">Withdraw %s BTC daily</string>-->
+    <!--    <string name="account_withdraw">Withdraw</string>-->
+    <!--    <string name="account_withdraw_daily">0.06BTC Daily</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_buy_crypto">Buy Crypto</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_sell_crypto">Sell Crypto</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_spot_trading">Spot Trading</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_futures_trading">Futures Trading</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_earning">Earning</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_shooting_star">Shooting Star</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_value_no_limit">No Limit</string>-->
+    <!--    <string name="account_continue">Continue</string>-->
+    <!--    <string name="account_starter">Starter</string>-->
+    <!--    <string name="account_advanced">Advanced</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_content">Personal Information</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_2_content">All Starter Requirements \nGovernment ID \nFacial Verification</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_page_tips">Please ensure your country of residence matches your valid ID. Your privileges could change based on the selection. Once submitted, your country of residence and date of birth cannot be changed.</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_first_name">First Name</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_last_name">Last Name</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_title">Full Features</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_tips">Complete the Advanced Verification to enjoy*full features*of BitMart</string>-->
+    <!--    <string name="account_compliance_validate_alert_content">Dear BitMart User,\n Due to regulations and internal policies, the access to BitMart services is currently not available for users from the following countries and areas: %s and State of New York.You may request access to BitMart services by contacting support@bitmart.com and submitting documentations for our KYC (Know-Your-Client) purposes, if you believe you are unfairly affected.</string>-->
+    <!--    <string name="account_user_info_id_verify_tip_verified">Verified</string>-->
+    <!--    <string name="account_verified_2fa_tips">Verify your account, Enable 2FA, to increase your account security</string>-->
+    <!--    <string name="account_user_info_id_verify_option_title">You Can</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_country">Please Select Country/Area</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_birthday">Select your date of birth</string>-->
+    <!--<string name="account_security_tip">After the Security setting is changed, you are not allowed to withdraw for the next 24 hours.</string>-->
+
+    <!--withdrawNotice-->
+
+    <!--AccountAuth-->
+    <!--    <string name="account_user_info_auth_verify_ga_new_title">Google 2FA</string>-->
+    <!--    <string name="account_login_verify_title">Verification</string>-->
+    <!--    <string name="account_user_info_auth_verify_ga_replace_title">Old GA Code</string>-->
+    <string name="auth_security_warning">After the security setting is changed, you are not allowed to withdraw for the next 24 hours.</string>
+
+    <!--prohibited_limit-->
+    <!--    <string name="account_user_info_bind_result_tip_email_bind_success">Your Email authentication has been set successfully</string>-->
+    <!--    <string name="account_user_info_bind_result_tip_phone_bind_success">Your Phone authentication has been set successfully</string>-->
+
+    <!--about register-->
+    <!--    <string name="account_register_hint_invite">invitation code</string>-->
+    <!--    <string name="account_have">Have an account yet? Login</string>-->
+    <!--    <string name="account_register_toast_succ">Registration is successful</string>-->
+
+    <!--about withdraw-->
+
+    <!--about connect-->
+    <!--    <string name="connect_telegram">Telegram</string>-->
+    <!--    <string name="connect_twitter">Twitter</string>-->
+    <!--    <string name="connect_facebook">Facebook</string>-->
+    <!--    <string name="connect_email">Email</string>-->
+    <!--    <string name="connect_wechat">Wechat</string>-->
+    <!--    <string name="wechat_id">WECHAT: bitmart2</string>-->
+    <!--    <string name="contact">CONTACT</string>-->
+    <!--    <string name="wechat">WECHAT</string>-->
+
+    <!--about login-->
+    <!--    <string name="account_login_verify_phone_title">Verification Code</string>-->
+    <!--    <string name="account_login_verify_email_title">Verification Code</string>-->
+    <!--    <string name="account_login_verify_ga_title">Google Authenticator Code</string>-->
+    <!--    <string name="account_login_verify_ga_tips_lost_ga">Lost your Google Authenticator.Click here</string>-->
+    <!--    <string name="account_login_verify_btn_send">Send</string>-->
+    <!--    <string name="account_login_verify_btn_resend">Resend</string>-->
+    <!--    <string name="account_login_verify_btn_send_after">Resend after</string>-->
+    <!--    <string name="account_login_verify_btn_ga">Customer Service</string>-->
+    <!--    <string name="account_login_verify_code_title">Enter your code</string>-->
+    <!--    <string name="account_login_verify_btn_paste">Paste</string>-->
+    <!--    <string name="account_login_auth_device_result_succ_title">New Device is authorized successfully</string>-->
+    <!--    <string name="account_login_auth_device_result_fail_title">Device is authorized Failed</string>-->
+    <!--    <string name="account_login_auth_device_result_succ_tips">You have successfully authorized a new device.  You can delete the account on the web client.</string>-->
+    <!--    <string name="account_login_auth_device_result_fail_tips">The device authorization link has expired. Please log in again to receive a new authorization link.</string>-->
+    <!--    <string name="account_phone">Phone</string>-->
+    <!--    <string name="account_email_address">Email address</string>-->
+    <!--    <string name="account_confirm">CONFIRM</string>-->
+    <!--    <string name="account_login_auth_device_result_fail_btn">AUTHORIZE</string>-->
+    <!--    <string name="account_register_btn_invite">Add Invitation Code</string>-->
+
+
+    <!--    <string name="account_share_toast_app_not_install">App not installed</string>-->
+
+    <string name="force_bind_ga">To provide better service, we updated the encryption method of Google Authenticator. The current 2FA will no longer compatible, please rebind the Google Authenticator.</string>
+    <string name="recommend_bind_ga">To provide better service, we updated the encryption method of Google Authenticator. We recommend you to rebind the Google Authenticator.</string>
+    <string name="rebind">Rebind</string>
+
+
+    <!--    <string name="scan_no_qr_code_error">QR code not found</string>-->
+    <!--    <string name="account_scan_toast_null_qr_code">QR code not found</string>-->
+    <!--    <string name="common_account_scan_bar_title">Scan QR code</string>-->
+    <!--    <string name="common_account_scan_toast_fail">Operation failed</string>-->
+    <!--    <string name="common_account_scan_btn_album">Album</string>-->
+    <!--    <string name="account_scan_result_title">Please confirm the information</string>-->
+    <!--    <string name="account_scan_result_ip">IP Address</string>-->
+    <!--    <string name="account_scan_result_address">Location</string>-->
+    <!--    <string name="account_scan_result_device">Device</string>-->
+    <!--    <string name="account_scan_result_btn_auth">Authorize</string>-->
+    <!--    <string name="account_scan_result_btn_cancel">Cancel</string>-->
+    <!--    <string name="account_scan_result_bar_title">Confirm Login</string>-->
+    <!--    <string name="account_earn_error_amount">Please check your amount</string>-->
+    <!--    <string name="account_earn_bitmart_earn">BitMart Savings</string>-->
+    <!--    <string name="account_earn_bitmart_earn_desc">Put your crypto balance to work.\nWith BitMart Savings, you can receive up to 50% APY on your cryptocurrencies.</string>-->
+    <!--    <string name="account_earn_redemption_date">Redemption date</string>-->
+    <!--    <string name="account_earn_value_date">Value date</string>-->
+    <!--    <string name="account_earn_individual_max">Individual max</string>-->
+    <!--    <string name="account_earn_interest_per_lot">Interest per lot</string>-->
+    <!--    <string name="account_earn_lot_size">Lot size</string>-->
+    <!--    <string name="account_earn_est_profit">Expected interest：</string>-->
+    <!--    <string name="account_earn_enter_lot_amount">Enter Amount</string>-->
+    <!--    <string name="account_earn_select_duration_day">Select duration (days)</string>-->
+    <!--    <string name="account_earn_est_interest_format">%1$s %2$s</string>-->
+    <!--    <string name="account_earn_success_dialog">Ok, go to my account</string>-->
+    <!--    <string name="account_earn_redeem_format">Redeem %s</string>-->
+    <!--    <string name="account_earn_pay">APY</string>-->
+    <!--    <string name="account_earn_total_amount">Total amount</string>-->
+    <!--    <string name="account_earn_enter_asset_amount">Enter Amount</string>-->
+    <!--    <string name="account_earn_est_profit_total">Estimated interest</string>-->
+    <!--    <string name="account_earn_curing_profit">Cumulative interest</string>-->
+    <!--    <string name="account_earn_lot_amount">Amount</string>-->
+    <!--    <string name="account_earn_assets_detail">DETAIL</string>-->
+    <!--    <string name="account_earn_days">days</string>-->
+    <!--    <string name="account_earn_accuring_interest">Accuring interest</string>-->
+    <!--    <string name="account_earn_today_subscription">Today\'s subscription</string>-->
+    <!--    <string name="account_earn_redeeming">Redeeming</string>-->
+    <!--    <string name="account_earn_cumulative_interest">Cumulative interest</string>-->
+    <!--    <string name="account_earn_est_annual_yield">Estimated annual yield</string>-->
+    <!--    <string name="account_earn_esti_annual_yield">Estimated annual yield</string>-->
+    <!--    <string name="account_earn_subscribe_date">Subscribe date</string>-->
+    <!--    <string name="account_earn_locked_period">Locked period</string>-->
+    <!--    <string name="account_earn_redeemption_date">Redemption date</string>-->
+    <!--    <string name="account_earn_subscribe_amount">Amount</string>-->
+    <!--    <string name="account_earn_holding_lots">Holding (lots)</string>-->
+    <!--    <string name="account_enter_password_tips">Please enter your password</string>-->
+    <!--    <string name="account_register_err_tips_invalid_phone">Please enter your Phone</string>-->
+    <!--    <string name="account_register_err_tips_invalid_email">Please enter your Email</string>-->
+    <!--    <string name="account_register_err_tips_invalid_pwd">Passwords must have at least 8 characters and contain at least two of the following: uppercase letters, lowercase letters, numbers, and symbols.</string>-->
+    <!--    <string name="account_user_info_verify_state_institution">Institution</string>-->
+    <!--    <string name="account_user_info_verify_state_platform">Platform</string>-->
+    <!--    <string name="account_not_allowed_subscribe">You are not allowed to subscribe</string>-->
+    <!--    <string name="account_not_allowed_redeem">You are not allowed to redeem</string>-->
+    <!--    <string name="account_assets_u_contract_future">USDⓈ-M</string>-->
+    <!--    <string name="account_assets_c_contract_future">COIN-M</string>-->
+
+
+    <!--    <string name="account_not_allowed_by_country">User’s country is forbidden for BitMart Savings.</string>-->
+    <!--    <string name="account_earn_bitmart_us_forbidden_notify">Please note that BitMart Earning service is not available for users located in, established in, or a resident of the United States of America.</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_edit_page_toast_under_18">According to the political requirements, it is impossible to provide services for users under the age of 18.</string>-->
+
+    <!--    <string name="account_assets_overview_assets_type_usd_m">USDⓈ-M Futures</string>-->
+    <!--    <string name="account_assets_overview_assets_type_coin_m">COIN-M Futures</string>-->
+    <!--    <string name="account_assets_overview_assets_type_buy_sell">Buy &#038; Sell</string>-->
+    <!--    <string name="account_assets_overview_assets_type_earn">Earn</string>-->
+    <!--    <string name="account_assets_overview_total_assets_title">Total Equity (BTC)</string>-->
+    <!--    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_launchpad">Launchpad</string>-->
+    <!--    <string name="zxing_album">album</string>-->
+
+
+    <!--    <string name="account_assets_transfer_option_lever_isolate_transfer_isolate_title">Isolated Margin</string>-->
+    <!--    <string name="account_assets_transfer_option_lever_isolate_transfer_cross_title">Cross Margin</string>-->
+
+    <!-- internal withdraw start, need to sync other strings.xml -->
+    <!-- 提现方式选择弹窗 链上提现方式 描述 -->
+    <!-- 提现方式选择弹窗 内部提现方式 名称 -->
+    <!-- internal withdraw end -->
+
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 提现页面标题 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_withdraw_title">Withdraw Detail</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 充值页面标题 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_title">Deposit Detail</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 被创建进度 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_created_status">Created</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 进行中进度 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_processing_status">Processing</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 已成功进度 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_succeeded_status">Success</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 已取消进度 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_cancel_status">Canceled</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 失败进度 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_failed_status">Failed</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 type 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_type">Type</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 type 内部提现类型&ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_withdraw_channel">Internal Withdraw</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 type 内部充值类型&ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_deposit_channel">Internal Deposit</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Received Qty (BTC) 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_received">@string/account_assets_crypt_receive_qty_format</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Fee (BTC) 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_fee">@string/account_assets_crypt_fee_qty_format</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Transaction ID 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_transaction_id">@string/serial_number</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Created 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_created">@string/account_assets_created</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Finished 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_finished">@string/account_assets_finished</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 To Account 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_to_account">To Account</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 From Account 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_from_account">From Account</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 Account Type 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_account_type">Account Type</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 TXID 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_txid">TXID</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 remark 菜单 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_remark">@string/remark</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 remark 文案 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_menu_remark_content">@string/withdraw_remark</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 提示语 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_tips">@string/withdraw_sns</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 TXID 按钮 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_txid_btn">@string/copy_txid</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 check TXID 按钮 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_check_txid_btn">@string/check_txid</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 sns &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_detail_sns">Notify me with SMS when deposit and withdrawal get done</string>-->
+    <!--    &lt;!&ndash; 内部提现或者充值详情页 open now 可点击文案 &ndash;&gt;-->
+    <!--    <string name="spot_internal_withdraw_open_now"> Enable now</string>-->
+    <!--    &lt;!&ndash; inner withdraw end &ndash;&gt;-->
+
+    <string name="spot_lever_history_transfer_status">Status</string>
+    <string name="spot_transfer_success">Success</string>
+    <string name="spot_transfer_failed">Failed</string>
+    <string name="earn_staking">Staking</string>
+    <string name="earn_staking_all">All</string>
+    <string name="earn_product_staking_locked_apy_summary">The APY is adjusted daily based on the on-chain staking rewards, and the specific APY is subject to the page display on the day.</string>
+    <string name="account_earn_bitmart_earn_staking">BitMart Staking</string>
+    <string name="account_earn_bitmart_earn_staking_desc">Dedicated to increasing user staking income</string>
+    <string name="earn_locked_amount">Locked Amount</string>
+    <string name="earn_defi_staking">Defi Staking</string>
+    <string name="earn_locked_staking">Locked Staking</string>
+    <string name="earn_locked_confirm">Lock Confirmed</string>
+    <string name="earn_staking_max">Max</string>
+    <string name="account_earn_enter_staking_amount">Enter Amount</string>
+    <string name="account_earn_staking_est_profit">Expected interest:</string>
+    <string name="earn_staking_est_apy">Est.APY</string>
+    <string name="earn_staking_minimum_limit">Individual minimum limitation</string>
+    <string name="earn_staking_maximum_limit">Individual maximum limitation</string>
+    <string name="account_earn_staking_value_date">Value date</string>
+    <string name="earn_go_to_staking">Go to Staking</string>
+    <string name="account_earn_staking_est_profit_without">Expected interest</string>
+    <string name="account_earn_total_Staked_amount">Total Staked Amount</string>
+    <string name="account_earn_staking_annual_yield">Estimated Annual Yield</string>
+    <string name="account_earn_staking_subscribe_date">Subscribe Date</string>
+    <string name="account_earn_locked_staking_period">Locked Period</string>
+    <string name="account_earn_staking_redeemption_date">Redemption Date</string>
+    <string name="earn_value_staking_date">Value Date</string>
+    <string name="account_earn_staking_detail_est_profit">Expected Interest</string>
+    <string name="earn_locked_type_string">Subscribe</string>
+    <string name="earn_stake">Stake</string>
+    <string name="earn_saving_title">Savings</string>
+    <string name="earn_stake_date">Date of subscription</string>
+    <string name="earn_stake_interest_date">Start to accrue interest</string>
+    <string name="earn_stake_redemp_date">Redemption Date</string>
+
+    <string name="account_assets_overview_today_title">Today’s P/L</string>
+    <string name="account_asset_overview_today_pl_dlg_btn_confirm">Got It</string>
+    <string name="account_asset_overview_today_pl_dlg_title">Today’s P/L</string>
+    <string name="account_asset_overview_today_pl_dlg_content">Including Spot &#038; Earn.</string>
+    <string name="spot_today_currency_popwindow_content">Learn more about your assets through Asset Analysis.</string>
+    <string name="spot_today_pl_dlg_title">Today’s P/L</string>
+
+    <string name="spot_today_pl_dlg_content">Today’s P/L=Today’s  asset total in spot account（24:00:00 UTC or at the current time if earlier than 24:00）- Today’s initial asset total（00:00:00 UTC） - Today’s net transfer and deposit.\n</string>
+    <string name="spot_today_pl_dlg_content2">Data maintenance time is about UTC0:00-3:30 o’clock every day. During this period, Today’s P/L will not be displayed, After the maintenance normal data can be seen.</string>
+    <string name="spot_analyse_equity_value_btc_title">Equity Value (BTC)</string>
+    <string name="spot_analyse_earnings_today_title">Today’s P/L</string>
+    <string name="spot_analyse_seven_day_earnings_title">7 days P/L</string>
+    <string name="spot_analyse_month_income_title">30 days P/L</string>
+    <string name="spot_analyse_tab_cumulative_income">Profits</string>
+    <string name="spot_analyse_tab_cumulative_rate">Cumulative P/L</string>
+    <string name="spot_analyse_tab_daily_revenue_type_daily">Daily P/L</string>
+    <string name="spot_analyse_tab_asset_distribution">Asset Allocation</string>
+    <string name="spot_analyse_tab_asset_trend">Asset Net Worth</string>
+    <string name="spot_analyse_tab_7_days">7 Days</string>
+    <string name="spot_analyse_tab_30_days">30 Days</string>
+    <string name="spot_analyse_tab_3_months">3 Months</string>
+    <string name="spot_analyse_tab_6_months">6 Months</string>
+    <string name="spot_analyse_tab_customise">Customise</string>
+    <string name="spot_analyse_profit_info_revenue_value_label">Profits</string>
+    <string name="spot_analyse_type_dlg_btn_confirm">Got It</string>
+    <string name="spot_analyse_profit_info_dlg_title">Profits</string>
+    <string name="spot_analyse_profit_info_dlg_content">The sum of each day\'s P/L from day 1 to day N.</string>
+    <string name="spot_analyse_cumulative_info_dlg_title">Cumulative P/L</string>
+    <string name="spot_analyse_cumulative_info_dlg_content">Cumulative P/L / [asset in spot account from day 1 +max（Net transfer and deposit，0）].</string>
+    <string name="spot_analyse_daily_info_dlg_title">Daily P/L</string>
+    <string name="spot_analyse_daily_info_dlg_content">Daily final asset in spot account - Initial asset at 00:00:00 UTC - Net transfer and deposit.</string>
+    <string name="spot_analyse_allocation_info_dlg_content">The display of each asset in spot account (sorted by each asset’s latest market value).</string>
+    <string name="spot_analyse_allocation_info_dlg_title">Asset Allocation</string>
+    <string name="spot_analyse_trend_info_dlg_title">Asset Net Worth</string>
+    <string name="spot_analyse_trend_info_dlg_content">The total net value of all the assets in spot account from day 1 to day N.</string>
+    <string name="spot_analyse_asset_label_total_asset">Total Asset</string>
+    <string name="spot_analyse_calendar_dlg_label_title">Customize time range</string>
+    <string name="spot_analyse_calendar_dlg_btn_clean">Clear</string>
+    <string name="spot_analyse_no_allocation_data_label">No Assets in spot wallet.</string>
+    <string name="spot_analyse_title">Asset Analysis</string>
+    <string name="spot_analyse_calendar_btn_confirm_unselected">Continue</string>
+    <string name="spot_analyse_daily_info_daily_label_title">Daily Pnl</string>
+    <string name="spot_analyse_tab_daily_revenue_type_weekly">Weekly  P/L</string>
+    <string name="spot_analyse_asset_net_worth_info_title">Asset Net Worth</string>
+    <string name="spot_analyse_daily_info_daily_label_title_type_weekly">Weekly Pnl</string>
+    <string name="spot_analyse_cumulative_info_label_btc_gain_loss">BTC gain/loss</string>
+    <string name="spot_analyse_cumulative_info_label_my_pnl_ratio">My Pnl ratio</string>
+    <string name="account_score_rate_title">Love BitMart?</string>
+    <string name="account_score_rate_content">We need your support.\nPlease rate us in the Google Play store.</string>
+    <string name="account_score_rate_confirm">Rate</string>
+    <string name="account_cancel">Cancel</string>
+    <string name="spot_warning_notify_dialog_go_asset_analysis">Go Asset Analysis</string>
+
+
+    <string name="spot_view_type_day">Day</string>
+    <string name="spot_view_type_hour">Hr</string>
+    <string name="spot_view_type_min">Min</string>
+    <string name="spot_view_type_second">Sec</string>
+    <string name="spot_view_upstate_down_desc">%s Start Trading</string>
+    <string name="spot_view_upstate_down_time_sp">MM/dd/yyyy HH:mm:ss</string>
+    <string name="share_invite_referral_label">Up to $3,000 \nWelcome Bonus</string>
+
+
+
+
+    <string name="app_test_1">app_spot_fund111111.</string>
+    <string name="app_test_2">app_spot_fund22222</string>
+    <string name="app_test_3">app_spot_fund33333</string>
+    <string name="app_test_4">app_spot_fund4444444.</string>
+
+
+
+</resources>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login登录页 -->
+    <string name="account_login_title">Hello,\nWelcome back</string>
+    <string name="account_login_tab_phone">Phone</string>
+    <string name="account_login_tab_email">Email</string>
+    <string name="account_login_hint_phone">Enter Phone</string>
+    <string name="account_login_hint_email">Enter Email</string>
+    <string name="account_login_hint_pwd">Enter your password</string>
+    <string name="account_login_btn_forgot_pwd">Forgot Password？</string>
+    <string name="account_login_btn_login">Sign In</string>
+    <string name="account_login_tips_no_register">Not registered?</string>
+    <string name="account_login_btn_sign_up">Sign Up</string>
+    <string name="account_login_toast_succ">Logged in Successfully</string>
+    <string name="account_login_alert_invalid_phone">Your phone number is invalid, please try again</string>
+    <string name="account_login_alert_invalid_email">Your email address is invalid, please try again</string>
+    <string name="account_login_alert_null_pwd">Enter your password</string>
+    <string name="account_login_alert_invalid_title">Note</string>
+    <string name="account_login_alert_invalid_btn_confirm">OK</string>
+
+    <!-- Login登录页verify功能 -->
+    <string name="account_login_verify_title">Verification</string>
+    <string name="account_login_verify_phone_title">Verification Code</string>
+    <string name="account_login_verify_email_title">Verification Code</string>
+    <string name="account_login_verify_ga_title">Google Authenticator Code</string>
+    <string name="account_login_verify_phone_tips">A verification code has been sent to your phone number</string>
+    <string name="account_login_verify_email_tips">A verification code has been sent to your phone number</string>
+    <string name="account_login_verify_tips_lost_ga">Lost your Google Authenticator?</string>
+    <string name="account_login_verify_btn_click_here">Click here</string>
+    <string name="account_login_verify_btn_send">Send</string>
+    <string name="account_login_verify_btn_send_after">Resend after</string>
+    <string name="account_login_verify_btn_resend">Resend</string>
+    <string name="account_login_verify_btn_ga">Customer Service</string>
+    <string name="account_login_verify_btn_paste">Paste</string>
+    <string name="account_login_verify_code_title">Enter your code</string>
+    <string name="account_login_verify_btn_confirm">OK</string>
+    <string name="account_login_verify_toast_invalid_code">Enter your verification code</string>
+
+    <!-- Login功能Auth Device设备认证 -->
+    <string name="account_login_auth_device_bar_title">Authorize Device</string>
+    <string name="account_login_auth_device_title">Authorize New Device</string>
+    <string name="account_login_auth_device_tips">You recently attempted to sign in to your BitMart account from a new device or in a new location. As a security measure, we require additional confirmation before allowing access to your BitMart account.</string>
+    <string name="account_login_auth_device_location_info">Location********:%s</string>
+    <string name="account_login_auth_device_ip_info">IP Address****:%s</string>
+    <string name="account_login_auth_device_device_info">Device*************:%s</string>
+    <string name="account_login_auth_device_tips_send_phone">"A verification code has been sent to your phone number "</string>
+    <string name="account_login_auth_device_tips_send_email">"A verification code has been sent to your Email address "</string>
+    <string name="account_login_auth_device_btn_send">Send</string>
+    <string name="account_login_auth_device_btn_auth">AUTHORIZE</string>
+    <string name="account_login_auth_device_toast_invalid_auth_code">Your your verification is invalid, please try again</string>
+
+    <!-- Login功能Auth Device设备认证-结果页 -->
+    <string name="account_login_auth_device_result_succ_title">New Device is authorized successfully</string>
+    <string name="account_login_auth_device_result_succ_tips">You have successfully authorized a new device.  You can delete the account on the web client.</string>
+    <string name="account_login_auth_device_result_succ_btn">Confirm</string>
+    <string name="account_login_auth_device_result_fail_title">Device is authorized Failed</string>
+    <string name="account_login_auth_device_result_fail_tips">The device authorization link has expired. Please log in again to receive a new authorization link.</string>
+    <string name="account_login_auth_device_result_fail_btn">AUTHORIZE</string>
+
+    <!-- forgot_pwd忘记密码 -->
+    <string name="account_forgot_pwd_title">Forgot Password</string>
+    <string name="account_forgot_pwd_tab_phone">Phone</string>
+    <string name="account_forgot_pwd_tab_email">Email</string>
+    <string name="account_forgot_pwd_hint_phone">Enter your phone number</string>
+    <string name="account_forgot_pwd_hint_email">Enter your email address</string>
+    <string name="account_forgot_pwd_alert_invalid_phone">Your phone number is invalid, please try again</string>
+    <string name="account_forgot_pwd_alert_invalid_email">Your email address is invalid, please try again</string>
+    <string name="account_forgot_pwd_alert_invalid_title">Note</string>
+    <string name="account_forgot_pwd_alert_invalid_btn_confirm">OK</string>
+    <string name="account_forgot_pwd_btn_next">Next</string>
+
+    <!-- reset_pwd 重置密码 -->
+    <string name="account_reset_pwd_title">Reset Password</string>
+    <string name="account_reset_pwd_label">After Reset password, you are not allowed to withdraw for the next 24 hours</string>
+    <string name="account_password_invalid_tips">Passwords must have at least 8 characters and contain at least two of the following: uppercase letters, lowercase letters, numbers, and symbols.</string>
+    <string name="account_reset_pwd_title_new_pwd">New password</string>
+    <string name="account_reset_pwd_hint_enter_new_pwd">Enter your password</string>
+    <string name="account_reset_pwd_title_confirm_pwd">Confirm password</string>
+    <string name="account_reset_pwd_hint_enter_pwd_again">Enter your password again</string>
+    <string name="account_reset_pwd_btn_confirm">OK</string>
+    <string name="account_reset_pwd_toast_modify_success">Edited Successfully</string>
+    <string name="account_reset_pwd_toast_pwd_not_match">Passwords do not match</string>
+
+    <!-- register注册 -->
+    <string name="account_register_title">Hello,\nWelcome to BitMart</string>
+    <string name="account_register_tab_phone">Phone</string>
+    <string name="account_register_tab_email">Email</string>
+    <string name="account_register_hint_phone">Enter your phone number</string>
+    <string name="account_register_hint_email">Enter your email address</string>
+    <string name="account_register_hint_pwd">Enter your password</string>
+    <string name="account_register_btn_invite">Add Referral Code</string>
+    <string name="account_register_hint_invite">Enter invitation code</string>
+    <string name="account_register_tips_protocol_agree">"I agree to "</string>
+    <string name="account_register_btn_protocol_name">User Agreement and Privacy Policy</string>
+    <string name="account_register_btn_sign_up">Sign Up</string>
+    <string name="account_register_tips_yet_register">Already have an account?</string>
+    <string name="account_register_btn_login">Sign In</string>
+    <string name="account_register_toast_succ">Registration is successful</string>
+    <string name="account_register_err_tips_invalid_phone">Your phone number is invalid, please try again</string>
+    <string name="account_register_err_tips_invalid_email">Your email address is invalid, please try again</string>
+    <string name="account_register_err_tips_null_pwd">Please enter your password</string>
+    <string name="account_register_err_tips_invalid_pwd">Passwords must have at least 8 characters and contain at least two of the following: uppercase letters, lowercase letters, numbers, and symbols.</string>
+    <string name="account_register_err_tips_pwd_no_match">Passwords do not match</string>
+    <string name="account_register_alert_invalid_title">Note</string>
+    <string name="account_register_alert_read_agreement">Please read and agree to the User Agreement</string>
+    <string name="account_register_alert_invalid_btn_confirm">OK</string>
+    <string name="account_register_toast_modify_success">Edited Successfully</string>
+
+    <!-- Message消息 -->
+    <string name="account_message_bar_title">Messages</string>
+    <string name="account_message_detail_tip_more">"More >"</string>
+
+    <!-- Scan扫描 -->
+    <string name="account_scan_bar_title">Scan QR code</string>
+    <string name="account_scan_btn_album">Album</string>
+    <string name="account_scan_toast_fail">Operation failed</string>
+    <string name="account_scan_result_bar_title">Confirm Login</string>
+    <string name="account_scan_result_title">Please confirm the information</string>
+    <string name="account_scan_toast_null_qr_code">QR code not found</string>
+    <string name="account_scan_result_address">Location</string>
+    <string name="account_scan_result_btn_auth">Authorize</string>
+    <string name="account_scan_result_btn_cancel">Cancel</string>
+    <string name="account_scan_result_device">Device</string>
+    <string name="account_scan_result_ip">IP Address</string>
+
+    <!-- user info用户信息 -->
+    <string name="account_user_info_bar_title">Account</string>
+    <string name="account_user_info_btn_username_unlogin">Login/Sign up</string>
+    <string name="account_user_info_id_verify">Identity Verification</string>
+    <string name="account_user_info_pay">Pay fees using BMX:Enjoy discount</string>
+    <string name="account_user_info_discount">Enjoy discount</string>
+    <string name="account_user_info_sms_auth">SMS Authenticator</string>
+    <string name="account_user_info_email_auth">Email Authenticator</string>
+    <string name="account_user_info_google_auth">Google Authenticator</string>
+    <string name="account_user_info_change_pwd">Change Password</string>
+    <string name="account_user_info_touch_id">Touch ID</string>
+    <string name="account_user_info_pattern_switch">Patter Switch</string>
+    <string name="account_user_info_btn_sign_out">Sign Out</string>
+    <string name="account_user_info_toast_copy">Copied Successfully</string>
+    <string name="account_user_info_verify_state_institution">Institution</string>
+    <string name="account_user_info_verify_state_platform">Platform</string>
+    <string name="account_user_info_verify_state_unverify">Verify Now</string>
+    <string name="account_user_info_verify_state_verified">Verified</string>
+    <string name="account_user_info_verify_state_verifying">Verifying</string>
+    <string name="account_user_info_verify_state_verify_failed">Verify failed</string>
+    <string name="account_user_info_logout_alert_content">Are you sure you want to sign out</string>
+    <string name="account_user_info_logout_alert_btn_confirm">OK</string>
+    <string name="account_user_info_logout_alert_btn_confirm_2">Confirm</string>
+    <string name="account_user_info_logout_alert_btn_cancel">Cancel</string>
+    <string name="account_user_info_touch_toast_no_match">Fingerprint verification failed, you have %d chance(s) to try</string>
+
+    <string name="account_user_info_alert_invalid_code_content">Please enter your verification code</string>
+    <string name="account_user_info_toast_invalid_identity_code">Enter your verification code</string>
+
+    <!-- user info用户信息 bind result -->
+    <string name="account_user_info_bind_result_sms_tips">Phone number associated with your account</string>
+    <string name="account_user_info_bind_result_sms_btn">Change Mobile</string>
+    <string name="account_user_info_bind_result_email_tips">Email</string>
+    <string name="account_user_info_bind_result_email_btn">Change Email</string>
+    <string name="account_user_info_bind_result_tip_email_bind_success">Your Email authentication has been set successfully</string>
+    <string name="account_user_info_bind_result_tip_phone_bind_success">Your Phone authentication has been set successfully</string>
+    <string name="account_user_info_bind_result_ga_tips">Your account is protected by Google 2FA.</string>
+    <string name="account_user_info_bind_result_btn_change">Change</string>
+
+    <!-- user info用户信息phone未绑定状态 -->
+    <string name="account_user_info_sms_auth_unbind_title">Phone Number</string>
+    <string name="account_user_info_sms_auth_unbind_subtitle">Phone Number</string>
+    <string name="account_user_info_sms_auth_unbind_hint">Enter your phone number</string>
+    <string name="account_user_info_sms_auth_unbind_btn_next">Next</string>
+    <string name="account_user_info_sms_auth_alert_title">Note</string>
+    <string name="account_user_info_sms_auth_alert_content">Please enter your SMS verification code</string>
+    <string name="account_user_info_sms_auth_alert_btn_confirm">ok</string>
+
+    <!-- user info用户信息phone未绑定状态-verify -->
+    <string name="account_user_info_sms_auth_verify_code_title">Verification Code</string>
+    <string name="account_user_info_sms_auth_verify_code_tips">A verification code has been sent to your phone %s</string>
+    <string name="account_user_info_sms_email_auth_verify_code_btn_send">Send</string>
+    <string name="account_user_info_sms_auth_verify_code_subtitle">Enter your code</string>
+    <string name="account_user_info_sms_auth_verify_code_btn_next">Next</string>
+
+    <!-- user info用户信息email未绑定状态 -->
+    <string name="account_user_info_email_auth_unbind_title">Email</string>
+    <string name="account_user_info_email_auth_unbind_subtitle">Email</string>
+    <string name="account_user_info_email_auth_unbind_hint">Enter your email address</string>
+    <string name="account_user_info_email_auth_unbind_btn_next">Next</string>
+    <string name="account_user_info_email_auth_alert_title">Note</string>
+    <string name="account_user_info_email_auth_alert_content">Please enter your EMail verification code</string>
+    <string name="account_user_info_email_auth_alert_btn_confirm">ok</string>
+
+    <!-- user info用户信息email未绑定状态 verify -->
+    <string name="account_user_info_email_auth_verify_code_title">Verification Code</string>
+    <string name="account_user_info_email_auth_verify_code_tips">A verification code has been sent to your email address %s</string>
+    <string name="account_user_info_email_auth_verify_code_subtitle">Enter your code</string>
+    <string name="account_user_info_email_auth_verify_code_btn_next">Next</string>
+
+    <!-- user info用户信息 ga 未绑定状态 -->
+    <string name="account_user_info_ga_unbind_title">Google Authenticator Code</string>
+    <string name="account_user_info_ga_unbind_tips">Enabling Google 2FA is strongly recommended to protect your account.</string>
+    <string name="account_user_info_ga_unbind_btn_enbale_ga">How to enable Google 2FA</string>
+    <string name="account_user_info_ga_unbind_btn_next">Enable now</string>
+
+    <!-- user info用户信息 ga 未绑定状态 backup key -->
+    <string name="account_user_info_ga_backup_key_title">Backup your key</string>
+    <string name="account_user_info_ga_backup_key_tips">Setup Google Authentication with this 16-digits code. Write it down and keep it safe. You can use this code to regain access to your account if you lose your phone.</string>
+    <string name="account_user_info_ga_backup_key_btn_next">Next</string>
+    <string name="account_user_info_ga_bind_tips">Google Authenticator</string>
+
+    <!-- user info用户信息 ga 未绑定状态 backup key verify -->
+    <string name="account_user_info_ga_verify_code_title">Google 2FA Code</string>
+    <string name="account_user_info_ga_verify_code_tips">Enter the Google Authenticator Code</string>
+
+    <!-- user info用户信息 auth verify -->
+    <string name="account_user_info_auth_verify_title">Verification</string>
+    <string name="account_user_info_auth_verify_tips">After the security setting is changed, you are not allowed to withdraw for the next 24 hours.</string>
+    <string name="account_user_info_auth_verify_tips_lost_ga">Lost your Google Authenticator?</string>
+    <string name="account_user_info_auth_verify_btn_click_here">Click here</string>
+    <string name="account_user_info_auth_verify_ga_replace_title">Old GA Code</string>
+    <string name="account_user_info_auth_verify_ga_new_title">Google 2FA</string>
+    <string name="account_user_info_auth_verify_btn_send">Send</string>
+    <string name="account_user_info_auth_verify_btn_paste">Paste</string>
+    <string name="account_user_info_auth_verify_hint_sms">Enter SMS code</string>
+    <string name="account_user_info_auth_verify_hint_email">Enter Email code</string>
+    <string name="account_user_info_auth_verify_hint_ga">Enter google Code</string>
+    <string name="account_user_info_auth_verify_err_tips_sms">Please enter your SMS verification code</string>
+    <string name="account_user_info_auth_verify_err_tips_email">Please enter your EMail verification code</string>
+    <string name="account_user_info_auth_verify_err_tips_ga">Please enter your Google verification code</string>
+    <string name="account_user_info_auth_verify_btn_confirm">OK</string>
+    <string name="account_user_info_auth_verify_alert_btn_confirm">OK</string>
+
+    <!-- user info用户信息 auth verify -->
+    <string name="account_user_info_id_verify_title">Identity Verification</string>
+    <string name="account_user_info_id_verify_user_level_tips">Current level: </string>
+    <string name="account_user_info_id_verify_user_level_value">Level %s</string>
+    <string name="account_user_info_id_verify_auth_level_1_title">Level - 1</string>
+    <string name="account_user_info_id_verify_auth_level_2_title">Level - 2</string>
+    <string name="account_user_info_id_verify_auth_level_1_subtitle">Level 1 - Starter</string>
+    <string name="account_user_info_id_verify_auth_level_2_subtitle">Level 2 - Advanced</string>
+    <string name="account_user_info_id_verify_auth_level_1_content">Personal Information</string>
+    <string name="account_user_info_id_verify_auth_level_2_content">All Starter Requirements \nGovernment ID \nFacial Verification</string>
+    <string name="account_user_info_id_verify_tips_under_review">Under Review</string>
+    <string name="account_user_info_id_verify_btn_verify_now">VERIFY NOW</string>
+    <string name="account_user_info_id_verify_option_title">You Can</string>
+    <string name="account_user_info_id_verify_option_deposit">Deposit</string>
+    <string name="account_user_info_id_verify_option_withdraw">Withdraw %s BTC daily</string>
+    <string name="account_user_info_id_verify_option_buy_crypto">Buy Crypto</string>
+    <string name="account_user_info_id_verify_option_sell_crypto">Sell Crypto</string>
+    <string name="account_user_info_id_verify_option_spot_trading">Spot Trading</string>
+    <string name="account_user_info_id_verify_option_futures_trading">Futures Trading</string>
+    <string name="account_user_info_id_verify_option_earning">Earning</string>
+    <string name="account_user_info_id_verify_option_launchpad">Launchpad</string>
+    <string name="account_user_info_id_verify_option_shooting_star">Shooting Star</string>
+    <string name="account_user_info_id_verify_tip_verified">Verified</string>
+    <string name="account_user_info_id_verify_tip_verify_failed">Verify failed</string>
+
+    <!-- user info用户信息 auth verify-edit page -->
+    <string name="account_user_info_id_verify_auth_level_1_page_tips">Please ensure your country of residence matches your valid ID. Your privileges could change based on the selection. Once submitted, your country of residence and date of birth cannot be changed.</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_country">Please Select Country/Area</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_first_name">First Name</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_last_name">Last Name</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_hint_birthday">Select your date of birth</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_btn_confirm">Confirm</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_toast_null">Input error</string>
+    <string name="account_user_info_id_verify_auth_level_1_edit_page_toast_under_18">According to the political requirements, it is impossible to provide services for users under the age of 18.</string>
+
+    <!-- user info用户信息 auth verify-success page -->
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_title">Level 1 - Completed</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_deposit">Deposit</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_withdraw">Withdraw</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_buy_crypto">Buy Crypto</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_sell_crypto">Sell Crypto</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_value_no_limit">No Limit</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_option_value_withdraw">%s BTC Daily</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_btn_deposit">Deposit Now</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_btn_buy_crypto">Buy Crypto</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_tips">Complete the Advanced Verification to enjoy*full features*of BitMart</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_btn_confirm">Continue</string>
+    <!-- ++ -->
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_title">Full Features</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_buy_crypto">Buy Crypto</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_deposit">Deposit</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_earning">Earning</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_futures_trading">Futures Trading</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_launchpad">Launchpad</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_sell_crypto">Sell Crypto</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_shooting_star">Shooting Star</string>
+    <string name="account_user_info_id_verify_auth_level_1_succ_page_alert_option_spot_trading">Spot Trading</string>
+
+    <!-- settings设置 -->
+    <string name="account_setting_bar_title">Settings</string>
+    <string name="account_setting_title_currency">Currency</string>
+    <string name="account_setting_language">Language</string>
+    <string name="account_setting_currency">Currency</string>
+    <string name="account_setting_about">About</string>
+    <string name="account_setting_about_bar_title">About</string>
+    <string name="account_setting_about_btn_update">Check for Updates</string>
+    <string name="account_setting_about_version_toast_update">Update to the latest version %s</string>
+    <string name="account_setting_about_version_toast_lastest_version">This is the latest version.</string>
+
+    <!-- invite设置 -->
+    <string name="account_setting_invite_bar_title">Refer A Friend</string>
+    <string name="account_setting_invite_my_referrals_title">My Referral</string>
+    <string name="account_setting_invite_my_referrals_friends">Friends</string>
+    <string name="account_setting_invite_my_referrals_details">Details</string>
+    <string name="account_setting_invite_my_referrals_reward">BMX Reward</string><!-- unused -->
+    <string name="account_setting_invite_my_commission_title">My Commission</string>
+    <string name="account_setting_invite_my_commission_yesterday">Yesterday\'s</string>
+    <string name="account_setting_invite_my_commission_total">Total</string>
+    <string name="account_setting_invite_my_commission_details">Details</string>
+    <string name="account_setting_invite_marquee_earned">earned</string>
+    <string name="account_setting_invite_invite_code">Invitation Code</string>
+    <string name="account_setting_invite_btn_invite">Invite</string>
+
+    <!-- invite detail ++ -->
+    <string name="account_setting_invite_detail_bar_title">Referral Details</string>
+    <string name="account_setting_invite_detail_bar_title_commission">Commission Details</string>
+    <string name="account_setting_invite_detail_tab_date">Date</string>
+    <string name="account_setting_invite_detail_tab_bmxreward">Reward (BMX)</string>
+    <string name="account_setting_invite_detail_tab_username">Username</string>
+    <string name="account_setting_invite_detail_tab_status">Status</string>
+    <string name="account_setting_invite_detail_tab_amount">Commission (BTC)</string>
+    <string name="account_setting_invite_detail_referral_value_locked">Locked</string>
+    <string name="account_setting_invite_detail_referral_value_unlocked">Unlocked</string>
+    <string name="account_setting_invite_detail_item_rewarded">Paid</string>
+
+    <!-- change pwd -->
+    <string name="account_change_pwd_title">Change Password</string>
+    <string name="account_change_pwd_tips">After the security setting is changed, you are not allowed to withdraw for the next 24 hours.</string>
+    <string name="account_change_pwd_old_pwd_title">Old Password</string>
+    <string name="account_change_pwd_pwd_title">New Password</string>
+    <string name="account_change_pwd_pwd_confirm_title">Password Confirm</string>
+    <string name="account_change_pwd_hint_pwd">Enter your password</string>
+    <string name="account_change_pwd_btn_confirm">OK</string>
+    <string name="account_change_pwd_err_tips_null_pwd">Please enter your password</string>
+    <string name="account_change_pwd_err_tips_fail_pwd">Passwords must have at least 8 characters and contain at least two of the following: uppercase letters, lowercase letters, numbers, and symbols.</string>
+    <string name="account_change_pwd_err_tips_diff_pwd">Passwords do not match</string>
+
+    <!-- change pwd-success -->
+    <string name="account_change_pwd_succ_page_tips">Please login in or withdraw using your new password.</string>
+    <string name="account_change_pwd_succ_page_btn_confirm">Password Changed</string>
+
+    <string name="account_user_info_change_pattern">Change Patter</string>
+    <string name="account_user_info_fingerprint_toast_user_enable">You should set up a fingerprint ID in your phone.</string>
+    <string name="account_user_info_touch_alert_btn_cancel">Cancel</string>
+    <string name="account_user_info_touch_alert_tip_content">Verify Your Fingerprint</string>
+
+    <!-- compliance合约检查 -->
+    <string name="account_compliance_validate_alert_title_confirm">Confirm</string>
+    <string name="account_compliance_validate_alert_title_back">Back</string>
+    <string name="account_compliance_validate_alert_content">Dear BitMart User,\n Due to regulations and internal policies, the access to BitMart services is currently not available for users from the following countries and areas: %s and State of New York.You may request access to BitMart services by contacting support@bitmart.com and submitting documentations for our KYC (Know-Your-Client) purposes, if you believe you are unfairly affected.</string>
+
+    <!-- share -->
+    <string name="account_share_url_description">Invite Friends Earn up to 70% Commission</string>
+    <string name="account_share_url_title">Invite Friends Earn up to 70% Commission</string>
+    <string name="account_share_toast_app_not_install">App not installed</string>
+
+    <!-- unlock-fingerprint -->
+    <string name="account_unlock_btn_use_pwd">Login using password</string>
+    <string name="account_unlock_fingerprint_alert_btn_cancel">Cancel</string>
+    <string name="account_unlock_fingerprint_alert_content">Verify Your Fingerprint</string>
+    <string name="account_unlock_fingerprint_tip_type_close">Disable Fingerprint Unlock</string>
+    <string name="account_unlock_fingerprint_tip_type_init">Enable Fingerprint Unlock</string>
+    <string name="account_unlock_fingerprint_tip_type_open">Enable Fingerprint Unlock</string>
+    <string name="account_unlock_fingerprint_tip_type_unlock">Verify your fingerprint</string>
+    <string name="account_unlock_fingerprint_toast_invalid_fingerprint">Fingerprint verification failed, you have %d chance(s) to try</string>
+    <string name="account_unlock_fingerprint_toast_user_enable">You should set up a fingerprint ID in your phone.</string>
+
+    <!-- unlock-gesture -->
+    <string name="account_unlock_gesture_toast_four_point">Connect at least 4 dots. Try again</string>
+    <string name="account_unlock_gesture_err_tip_null_gesture">Confirm Unlock Pattern</string>
+    <string name="account_unlock_gesture_tip_type_init_desc">Add new unlock pattern</string>
+    <string name="account_unlock_gesture_toast_complete">Setting completed</string>
+    <string name="account_unlock_gesture_err_tip_no_match">The patterns don\'t match</string>
+    <string name="account_unlock_gesture_toast_invalid_gesture">Gesture verification failed, you have %d chance(s) to try</string>
+    <string name="account_unlock_gesture_err_tip_over_limit">Please try again later</string>
+    <string name="account_unlock_gesture_tip_type_init">Enable Pattern Unlock</string>
+    <string name="account_unlock_gesture_tip_type_open">Draw Your Pattern</string>
+    <string name="account_unlock_gesture_tip_type_unlock">Pattern Unlock</string>
+
+    <!-- unlock-face -->
+
+    <!-- assets overview -->
+    <string name="account_assets_bar_title">Assets</string>
+    <string name="account_assets_overview_total_assets_title">Total Equity (BTC)</string>
+    <string name="account_assets_overview_btn_deposit">Deposit</string>
+    <string name="account_assets_overview_btn_withdraw">Withdraw</string>
+    <string name="account_assets_overview_btn_transfer">Transfer</string>
+    <string name="account_assets_overview_assets_type_spot">Spot</string>
+    <string name="account_assets_overview_assets_type_margin_cross">Cross Margin</string>
+    <string name="account_assets_overview_assets_type_margin_isolate">Isolated Margin</string>
+    <string name="account_assets_overview_assets_type_usd_m">USDⓈ-M Futures</string>
+    <string name="account_assets_overview_assets_type_coin_m">COIN-M Futures</string>
+    <string name="account_assets_overview_assets_type_buy_sell">Buy &#038; Sell</string>
+    <string name="account_assets_overview_assets_type_earn">Earn</string>
+    <string name="account_assets_overview_today_title">Today’s P/L</string>
+    <string name="account_assets_overview_today_pl_dlg_btn_confirm">Got It</string>
+    <string name="account_assets_overview_today_pl_dlg_title">Today’s P/L</string>
+    <string name="account_assets_overview_today_pl_dlg_content">Including Spot &#038; Earn.</string>
+
+    <!-- assets buy sell -->
+    <string name="account_assets_buy_sell_equity_title">Equity (BTC)</string>
+    <string name="account_assets_buy_sell_btn_history">History</string>
+    <string name="account_assets_buy_sell_btn_buy">Buy</string>
+    <string name="account_assets_buy_sell_btn_sell">Sell</string>
+    <string name="account_assets_buy_sell_btn_transfer">Transfer</string>
+    <string name="account_assets_buy_sell_option_btn_hide_0_balances">Hide 0 Balances</string>
+    <string name="account_assets_buy_sell_hint_search">Search</string>
+
+    <!-- assets transfer -->
+    <string name="account_assets_transfer_title">Transfer</string>
+    <string name="account_assets_transfer_option_from">From</string>
+    <string name="account_assets_transfer_option_to">To</string>
+    <string name="account_assets_transfer_coin_subtitle">Coin</string>
+    <string name="account_assets_transfer_transfer_amount_subtitle">Transfer Amount</string>
+    <string name="account_assets_transfer_hint_transfer_amount">Minimum %s</string>
+    <string name="account_assets_transfer_btn_all">All</string>
+    <string name="account_assets_transfer_tips_available">Available</string>
+    <string name="account_assets_transfer_err_tips_available">Please enter an amount no higher than your available balance.</string>
+    <string name="account_assets_transfer_btn_transfer">Transfer</string>
+    <string name="account_assets_transfer_available_tips_content">Transfer between accounts are credited in a real-time manner and free of charge.</string>
+    <string name="account_assets_transfer_option_futures">Futures</string>
+    <string name="account_assets_transfer_option_fiat">Buy &#038; Sell Account</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_future_title">Note</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_future_tips">You are not allowed to transfer to future account</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_future_btn_confirm">Confirm</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_fiat_title">Note</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_fiat_tips">You are not allowed to transfer to Buy &#038; Sell account</string>
+    <string name="account_assets_transfer_alert_not_allow_transfer_2_fiat_btn_confirm">Confirm</string>
+    <string name="account_assets_transfer_toast_success">Transfer successful.</string>
+    <string name="account_assets_transfer_option_lever_isolate_transfer_cross_title">Cross Margin</string>
+    <string name="account_assets_transfer_option_lever_isolate_transfer_isolate_title">Isolated Margin</string>
+    <string name="account_assets_transfer_toast_amount_over_limit">The transfer amount cannot be less than %s</string>
+    <string name="account_assets_transfer_toast_invalid_amount">The transfer amount error</string>
+    <string name="account_assets_transfer_alert_check_balance_btn_confirm">Confirm</string>
+    <string name="account_assets_transfer_alert_check_balance_btn_cancel">Cancel</string>
+
+    <!-- welcome -->
+    <string name="account_welcome_alert_title">Hello,\nWelcome to BitMart</string>
+    <string name="account_welcome_alert_tips_buy">I don\'t have Crypto</string>
+    <string name="account_welcome_alert_tips_deposit">I have Crypto</string>
+    <string name="account_welcome_alert_btn_buy">Buy Now</string>
+    <string name="account_welcome_alert_btn_deposit">Deposit Now</string>
+
+    <!-- fiat -->
+    <string name="account_fiat_btn_history">History</string>
+
+    <!-- widget -->
+    <string name="account_widget_liv_input_phone">Enter your phone number</string>
+
+    <!-- base -->
+    <string name="account_base_loading">Loading...</string>
+
+    <!-- web页面 -->
+    <string name="account_web_buy_sell_crypto_bar_title">Buy &#038; Sell Crypto</string>
+    <string name="account_web_ga_bar_title">Google Auth Help</string>
+    <string name="account_web_register_terms_title">Please read and agree to the User Agreement</string>
+    <string name="account_user_info_alert_invalid_code_title">Note</string>
+    <!-- transfer -->
+    <string name="account_transfer_contract_experience_dialog_tips">The current contract assets include the bonus. After the transfer, the bonus will be reclaimed. Do you confirm the transfer?</string>
+    <string name="account_welcome_fiat_trading">Buy &#038; Sell Crypto</string>
+    <string name="account_withdraw_daily">0.06BTC Daily</string>
+    <string name="account_update_title">Update Available</string>
+    <string name="account_update">Update</string>
+    <string name="account_update_latter">Not now</string>
+    <string name="account_identify_advanced_btn_verify_now">Verify Now</string>
+    <!--about connect-->
+    <string name="account_connect_telegram">Telegram</string>
+    <string name="account_connect_twitter">Twitter</string>
+    <string name="account_connect_facebook">Facebook</string>
+    <string name="account_connect_email">Email</string>
+    <string name="account_connect_wechat">Wechat</string>
+    <string name="account_wechat_id">WECHAT: bitmart2</string>
+    <string name="account_contact">CONTACT</string>
+    <string name="account_login_pass">Password</string>
+    <string name="account_save_qr">Save to Album</string>
+    <string name="account_select_code_btn_cancel">Cancel</string>
+    <string name="account_date">Date</string>
+
+    <string name="account_assets_tab_title_overview">Overview</string>
+    <string name="account_assets_tab_title_spot">Spot</string>
+    <string name="account_assets_tab_title_margin">Margin</string>
+    <string name="account_assets_tab_title_future">Futures</string>
+    <string name="account_assets_tab_title_fund">Buy &#038; Sell</string>
+    <string name="account_assets_tab_title_earn">Earn</string>
+
+    <string name="account_score_rate_title">Love BitMart?</string>
+    <string name="account_score_rate_content">We need your support.\nPlease rate us in the Google Play store.</string>
+    <string name="account_score_rate_confirm">Rate</string>
+    <string name="account_score_btn_cancel">Cancel</string>
+
+    <string name="account_select_country_code_search_hint">Search</string>
+    <string name="account_user_info_discount_tip">Your fee rates ></string>
+    <string name="account_user_info_discount_pay">Using BMX Deduction (25% Discount)</string>
+    <string name="account_funding_rate_spot">Spot</string>
+    <string name="account_funding_rate_maker">Maker</string>
+    <string name="account_funding_rate_taker">Taker</string>
+    <string name="account_funding_rate_tip_1">Raise BMX balance can enjoy lower fees.</string>
+    <string name="account_funding_rate_buy_bmx">Buy BMX ></string>
+    <string name="account_funding_rate_futures">Futures</string>
+    <string name="account_funding_rate_tip_2">See Fee Schedule ></string>
+    <string name="account_funding_rate_future_taker">0.0600%</string>
+    <string name="account_funding_rate_future_maker">0.0400%</string>
+    <string name="account_funding_rate_fee_level_pro">Professional</string>
+    <string name="account_funding_rate_fee_level_standard">Standard</string>
+    <string name="account_funding_rate_fee_level_special">Special</string>
+    <string name="account_funding_rate_fee_level">Fee Level:&#160;</string>
+    <string name="account_funding_rate_professional_toast">Professional users are no longer allowed to use BMX reduction</string>
+    <string name="account_funding_rate_special_toast">Special users are no longer allowed to use BMX reduction</string>
+    <string name="account_funding_rate_unknow_toast">Users are no longer allowed to use BMX reduction</string>
+    <string name="account_register_title_bonus">Sign Up Now \nand Get up to $3,000</string>
+
+    <string name="account_sign_bonus_login">Login</string>
+    <string name="account_sign_bonus_get_started">Get Started</string>
+
+    <string name="account_captcha_slide_label">Slide to complete the puzzle</string>
+    <string name="account_captcha_result_success">Success!</string>
+    <string name="account_captcha_result_failed">Position the piece in its slot.</string>
+    <string name="account_captcha_result_over_limit">Over Limit 5 times</string>
+    <string name="account_captcha_verify_access">Verify passed, takes %d ms</string>
+    <string name="account_captcha_verify_failed">Verify failed, takes %d ms</string>
+    <!-- luke口头表示只有英文么有中文：风控未通过这种不能展示给用户 -->
+    <string name="account_captcha_risk_toast_result_reject">Too many attempts, please try again later.</string>
+    <string name="account_captcha_risk_toast_result_unknown">Please check your network and try again later.</string>
+
+    <string name="account_test_1">111111.</string>
+    <string name="account_test_2">22222</string>
+    <string name="account_test_3">33333</string>
+    <string name="account_test_4">4444444.</string>
+    <string name="account_test_5">55555555555</string>
+    <string name="account_test_6">66666666666666666666666666666666666.</string>
+</resources>

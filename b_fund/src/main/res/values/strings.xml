@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- fund 表示 Buy Sell 出入金 作为前缀-->
+
+    <!-- common -->
+    <!--<string name="use_agree">-->
+    <string name="fund_common_web_use_agree_title">《the BitMart Terms Of Use》</string>
+    <!--<string name="read_agreement">-->
+    <string name="fund_common_alert_read_agreement">Please read and agree to the User Agreement</string>
+    <!--<string name="empty">-->
+    <string name="fund_common_no_record">No record</string>
+    <!--<string name="dialog_tips">-->
+    <string name="fund_common_note">Note</string>
+    <!--<string name="ok">-->
+    <string name="fund_common_ok">OK</string>
+    <!--<string name="spot_cancel">-->
+    <string name="fund_common_cancel">Cancel</string>
+    <!--<string name="confirm">-->
+    <string name="fund_common_confirm">Confirm</string>
+    <!--<string name="loading">-->
+    <string name="fund_common_loading">Loading...</string>
+
+    <!--FiatFragment-->
+    <!--<string name="account_spot_balance">-->
+    <string name="fund_fiat_balance">Equity (BTC)</string>
+    <!--<string name="spot_history">-->
+    <string name="fund_fiat_balance_btn_history">History</string>
+    <!--<string name="account_buy">-->
+    <string name="fund_fiat_balance_btn_buy">Buy</string>
+    <!--<string name="account_sell">-->
+    <string name="fund_fiat_balance_btn_sell">Sell</string>
+    <!--<string name="spot_account_transfer">-->
+    <string name="fund_fiat_balance_btn_transfer">Transfer</string>
+    <!--<string name="hide_did">-->
+    <string name="fund_fiat_balance_option_btn_hide_0_balances">Hide 0 Balances</string>
+    <!--<string name="show_did">-->
+    <string name="fund_fiat_balance_option_btn_show_0_balances">Show All Balances</string>
+    <!--<string name="spot_search">-->
+    <string name="fund_fiat_balance_hint_search">Search</string>
+
+    <!--FiatWebActivity-->
+    <!--<string name="spot_market_fiat_trading">-->
+    <string name="fund_fiat_web_title">Buy &#038; Sell Crypto</string>
+
+    <!--FiatHistoryActivity-->
+    <!--<string name="trading_history_buy_sell_history_title">-->
+    <string name="fund_fiat_history_title">Buy &#038; Sell History</string>
+    <!--<string name="trading_buy_history">-->
+    <string name="fund_fiat_history_tab_buy">Buy</string>
+    <!--<string name="trading_sell_history">-->
+    <string name="fund_fiat_history_tab_sell">Sell</string>
+
+    <!--FiatDepositHistoryFragment-->
+    <!--FiatWithdrawHistoryFragment-->
+    <!--<string name="trading_airdrop">-->
+    <string name="fund_wrapper_history_distribution_type_airdrop_type">Airdrop</string>
+    <!--<string name="trading_market_reward">-->
+    <string name="fund_wrapper_history_distribution_type_market_reward_type">Internal coin issuance</string>
+    <!--<string name="trading_trade_race">-->
+    <string name="fund_wrapper_history_distribution_type_trade_race_type">Trading Competition</string>
+    <!--<string name="trading_fee_return">-->
+    <string name="fund_wrapper_history_distribution_type_fee_return_type">Refund of fee</string>
+    <!--<string name="trading_reward">-->
+    <string name="fund_wrapper_history_distribution_type_reward_type">Event Rewards</string>
+    <!--<string name="trading_staking">-->
+    <string name="fund_wrapper_history_distribution_type_staking_type">%s-Staking</string>
+    <!--<string name="trading_lending">-->
+    <string name="fund_wrapper_history_distribution_type_lending_type">%s-Lending</string>
+
+    <!--FiatHistoryFilterDialogFrag-->
+    <!--<string name="earn_filter">-->
+    <string name="fund_fiat_history_filter_dialog_title">Filter</string>
+    <!--<string name="trading_fiat_status">-->
+    <string name="fund_fiat_history_filter_dialog_menu_status">Status</string>
+    <!--<string name="account_all">-->
+    <string name="fund_fiat_history_filter_dialog_btn_status_all">All</string>
+    <!--<string name="success">-->
+    <string name="fund_fiat_history_filter_dialog_btn_status_success">Success</string>
+    <!--<string name="in_process">-->
+    <string name="fund_fiat_history_filter_dialog_btn_status_processing">Processing</string>
+    <!--<string name="earn_date">-->
+    <string name="fund_fiat_history_filter_dialog_menu_date">Date</string>
+    <!--<string name="account_coin">-->
+    <string name="fund_fiat_history_filter_dialog_menu_coin">Coin</string>
+    <!--<string name="account_all">-->
+    <string name="fund_fiat_history_filter_dialog_btn_coin_all">All</string>
+    <!--<string name="earn_reset">-->
+    <string name="fund_fiat_history_filter_dialog_btn_reset">Reset</string>
+    <!--<string name="confirm">-->
+    <string name="fund_fiat_history_filter_dialog_btn_confirm">Confirm</string>
+    <!--<string name="account_assets_filter_over_range_notify">-->
+    <string name="fund_fiat_history_filter_dialog_toast_over_range_notify">Please select start and end time within 90 days.</string>
+
+    <!--FiatWithdrawDetailActivity-->
+    <!--<string name="detail">-->
+    <string name="fund_fiat_withdraw_detail_title">Detail</string>
+    <!--<string name="creating">-->
+    <string name="fund_fiat_withdraw_detail_id_created">Create</string>
+    <!--<string name="in_process">-->
+    <string name="fund_fiat_withdraw_detail_id_processing">Processing</string>
+    <!--<string name="complete">-->
+    <string name="fund_fiat_withdraw_detail_id_complete">Complete</string>
+    <!--<string name="trading_withdraw_payment_state_approved">-->
+    <string name="fund_fiat_withdraw_detail_id_approved">Approved</string>
+    <!--<string name="trading_withdraw_payment_state_cancelled">-->
+    <string name="fund_fiat_withdraw_detail_id_cancelled">Cancelled</string>
+    <!--<string name="trading_withdraw_payment_state_declined">-->
+    <string name="fund_fiat_withdraw_detail_id_declined">Declined</string>
+    <!--<string name="trading_withdraw_payment_state_refunded">-->
+    <string name="fund_fiat_withdraw_detail_id_refunded">Refunded</string>
+    <!--<string name="trading_channel">-->
+    <string name="fund_fiat_withdraw_detail_id_channel">Channel</string>
+    <!--<string name="trading_transaction_type">-->
+    <string name="fund_fiat_withdraw_detail_id_transaction_type">Transaction type</string>
+    <!--<string name="trading_withdraw_buy_coin">-->
+    <string name="fund_fiat_withdraw_detail_transaction_type_buy">Buy Coin</string>
+    <!--<string name="trading_withdraw_sell_coin">-->
+    <string name="fund_fiat_withdraw_detail_transaction_type_sell">Sell Coin</string>
+    <!--<string name="trading_crypto_amount">-->
+    <string name="fund_fiat_withdraw_detail_id_crypto_amount">Crypto Amount</string>
+    <!--<string name="trading_network_fee">-->
+    <string name="fund_fiat_withdraw_detail_id_network_fee">Network fee</string>
+    <!--<string name="serial_number">-->
+    <string name="fund_fiat_withdraw_detail_id_transaction_id">Transaction ID</string>
+    <!--<string name="time">-->
+    <string name="fund_fiat_withdraw_detail_id_creation_time">Creation Time</string>
+    <!--<string name="op_time">-->
+    <string name="fund_fiat_withdraw_detail_id_complete_time">Complete Time</string>
+    <!--<string name="trading_price_in_detail">-->
+    <string name="fund_fiat_withdraw_detail_id_price">Price</string>
+    <!--<string name="trading_fiat_amount">-->
+    <string name="fund_fiat_withdraw_detail_id_fiat_amount">Fiat Amount</string>
+    <!--<string name="trading_status">-->
+    <string name="fund_fiat_withdraw_detail_id_status">Status</string>
+    <!--<string name="trading_withdraw_local_state_initiated">-->
+    <string name="fund_fiat_withdraw_detail_status_initiated">Initiated</string>
+    <!--<string name="trading_withdraw_local_state_pending">-->
+    <string name="fund_fiat_withdraw_detail_status_pending">Pending</string>
+    <!--<string name="trading_withdraw_local_state_cancel">-->
+    <string name="fund_fiat_withdraw_detail_status_cancel">Cancel</string>
+    <!--<string name="trading_withdraw_local_state_success">-->
+    <string name="fund_fiat_withdraw_detail_status_success">Success</string>
+    <!--<string name="trading_withdraw_local_state_fail">-->
+    <string name="fund_fiat_withdraw_detail_status_fail">Fail</string>
+    <string name="fund_fiat_withdraw_detail_id_txid">TXID</string>
+    <!--<string name="remark">-->
+    <string name="fund_fiat_withdraw_detail_id_remark">Remark</string>
+    <!--<string name="withdraw_remark">-->
+    <string name="fund_fiat_withdraw_detail_tips_remark">All amount including fees has been refunded to your BitMart account.</string>
+    <!--<string name="copy_txid">-->
+    <string name="fund_fiat_withdraw_detail_btn_copy_txid">Copy TXID</string>
+    <!--<string name="check_txid">-->
+    <string name="fund_fiat_withdraw_detail_btn_check_txid">Check TXID</string>
+    <!--<string name="withdraw_sns">-->
+    <string name="fund_fiat_withdraw_detail_tips_withdraw_sns">Notify me with SMS when deposit and withdrawal get done</string>
+    <!--<string name="open_now">-->
+    <string name="fund_fiat_withdraw_detail_btn_open_now"> Enable now</string>
+    <!--<string name="spot_cou_suc">-->
+    <string name="fund_fiat_withdraw_detail_toast_copy_success">Copied Successfully</string>
+
+    <!--EarnFragment-->
+    <!--<string name="earn_balances_title">-->
+    <string name="fund_earn_balance">Estimated Value (BTC)</string>
+    <!--<string name="spot_history">-->
+    <string name="fund_earn_balance_btn_history">History</string>
+    <!--<string name="earn_total_profit_title">-->
+    <string name="fund_earn_balance_id_total_interest">Total Interest Earned</string>
+    <!--<string name="earn_yesterday_profit_title">-->
+    <string name="fund_earn_balance_id_today_interest">Today Interest Earned</string>
+    <!--<string name="earn_buy_products_title">-->
+    <string name="fund_earn_balance_btn_buy_products">Buy Products</string>
+    <!--<string name="earn_saving">-->
+    <string name="fund_earn_balance_tab_saving">Savings</string>
+    <!--<string name="earn_staking">-->
+    <string name="fund_earn_balance_tab_staking">Staking</string>
+
+    <!--EarnHomeSavingTabVpFragment-->
+    <!--<string name="account_earn_tab_titles">-->
+    <string-array name="fund_earn_saving_tab_titles">
+        <item>All</item>
+        <item>Flexible</item>
+        <item>Fixed</item>
+        <item>Promotions</item>
+    </string-array>
+
+    <!--EarnHoldingTabFragment-->
+    <!--<string name="account_earn_pay">-->
+    <string name="fund_earn_saving_id_apy">APY</string>
+    <!--<string name="earn_flexible_savings">-->
+    <string name="fund_earn_saving_type_flexible_savings">Flexible Savings</string>
+    <!--<string name="earn_fixed_savings">-->
+    <string name="fund_earn_saving_type_fixed_savings">Fixed Savings</string>
+    <!--<string name="earn_activities_savings">-->
+    <string name="fund_earn_saving_type_promotions">Promotions</string>
+    <!--<string name="account_earn_curing_profit">-->
+    <string name="fund_earn_saving_profit_expected_interest">Cumulative interest</string>
+    <!--<string name="account_earn_est_profit_total">-->
+    <string name="fund_earn_saving_profit_estimated_interest">Estimated interest</string>
+
+    <!--EarnHomeStakingTabVpFragment-->
+    <!--<string name="account_earn_tab_stoking_titles">-->
+    <string-array name="fund_earn_staking_tab_titles">
+        <item>All</item>
+        <!--<item>Defi Staking</item>-->
+        <item>Locked Staking</item>
+    </string-array>
+
+    <!--EarnStakingTabFragment-->
+    <!--<string name="account_earn_pay">-->
+    <string name="fund_earn_staking_id_apy">APY</string>
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_staking_type_locked_staking">Locked Staking</string>
+    <!--<string name="account_earn_staking_est_profit_without">-->
+    <string name="fund_earn_staking_profit_expected_interest">Expected interest</string>
+
+    <!--EarnProductActivity-->
+    <!--<string name="earn_saving_title">-->
+    <string name="fund_earn_product_saving_tab_title">Savings</string>
+    <!--<string name="earn_staking">-->
+    <string name="fund_earn_product_staking_tab_title">Staking</string>
+
+    <!--EarnSavingFragment-->
+    <!--<string name="account_earn_bitmart_earn">-->
+    <string name="fund_earn_saving_product_title">BitMart Savings</string>
+    <!--<string name="account_earn_bitmart_earn_desc">-->
+    <string name="fund_earn_saving_product_desc">Put your crypto balance to work.\nWith BitMart Savings, you can receive up to 50% APY on your cryptocurrencies.</string>
+    <!--<string name="earn_flexible">-->
+    <string name="fund_earn_saving_product_tab_flexible">Flexible</string>
+    <!--<string name="earn_fixed">-->
+    <string name="fund_earn_saving_product_tab_fixed">Fixed</string>
+    <!--<string name="earn_activities">-->
+    <string name="fund_earn_saving_product_tab_promotions">Promotions</string>
+    <!--<string name="earn_flexible_savings">-->
+    <string name="fund_earn_saving_product_type_flexible_savings">Flexible Savings</string>
+    <!--<string name="earn_fixed_savings">-->
+    <string name="fund_earn_saving_product_type_fixed_savings">Fixed Savings</string>
+    <!--<string name="earn_activities_savings">-->
+    <string name="fund_earn_saving_product_type_promotions">Promotions</string>
+    <!--<string name="account_earn_bitmart_us_forbidden_notify">-->
+    <string name="fund_earn_saving_product_tips_forbidden_notify">Please note that BitMart Earning service is not available for users located in, established in, or a resident of the United States of America.</string>
+    <!--<string name="earn_subscribe">-->
+    <string name="fund_earn_saving_product_btn_subscribe">Subscribe</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_saving_product_btn_sold_out">Sold out</string>
+
+    <!--EarnSubscribeFlexibleFrag 申购活期理财底部弹窗Fragment-->
+    <!--<string name="earn_subscribe_btc_format">-->
+    <string name="fund_earn_subscribe_flexible_dialog_title">Subscribe to %s</string>
+    <!--<string name="earn_amount">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_amount">Amount</string>
+    <!--<string name="earn_valuable_format">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_available_amount_format">Available %1$s %2$s</string>
+    <!--<string name="earn_all">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_max">Max</string>
+    <!--<string name="account_earn_enter_asset_amount">-->
+    <string name="fund_earn_subscribe_flexible_dialog_hint_amount">Enter Amount</string>
+    <!--<string name="earn_value_date">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_value_date">Value date</string>
+    <!--<string name="earn_flexible_interest_per_thousand">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_interest_per_thousand">Flexible interest per thousand</string>
+    <!--<string name="earn_max_subscription">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_maximum_subscription">Maximum subscription</string>
+    <!--<string name="earn_7day_apy">-->
+    <string name="fund_earn_subscribe_flexible_dialog_id_7_day_apy">7-day APY</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_auto_subscribe_switch">Auto Subscribe</string>
+    <!--<string name="earn_user_agreement">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_user_agreement">User Agreement</string>
+    <!--<string name="earn_i_agree">-->
+    <string name="fund_earn_subscribe_flexible_dialog_tips_i_agree">"I have read and agree to "</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_confirm">Confirm</string>
+    <!--<string name="earn_subscribe">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_subscribe">Subscribe</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_subscribe_flexible_dialog_btn_sold_out">Sold out</string>
+    <!--<string name="account_not_allowed_subscribe">-->
+    <string name="fund_earn_subscribe_flexible_dialog_tips_not_allowed_subscribe">You are not allowed to subscribe</string>
+    <!--<string name="account_not_allowed_redeem">-->
+    <string name="fund_earn_subscribe_flexible_dialog_tips_not_allowed_redeem">You are not allowed to redeem</string>
+    <!--<string name="account_earn_error_amount">-->
+    <string name="fund_earn_subscribe_flexible_dialog_toast_check_amount">Please check your amount</string>
+    <!--<string name="earn_min_subscribe_amount">-->
+    <string name="fund_earn_subscribe_flexible_dialog_toast_minimum_amount">"Minimum amount:"</string>
+    <!--<string name="earn_auto_subscribe_summary">-->
+    <string name="fund_earn_subscribe_flexible_dialog_tips_auto_subscribe">Turning Auto-transfer on means your corresponding asset in the spot account will be used to subscribe flexible saving products every 24 hours; you can find the auto-subscribe history under </string>
+    <!--<string name="earn_auto_subscribe_summary2">-->
+    <!--suppress CheckTagEmptyBody -->
+    <string name="fund_earn_subscribe_flexible_dialog_summary_auto_subscribe">[Earn History]-[Flexible]</string>
+    <!--<string name="earn_detail_auto_subscribe_summary">-->
+    <string name="fund_earn_subscribe_flexible_dialog_toast_auto_subscribe">Every day at UTC + 0, BitMart will use the available balance of Spot Accounts to subscribe Flexible Savings.</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_subscribe_flexible_dialog_auto_subscribe_title">Auto Subscribe</string>
+
+    <!--EarnSubscribeFixedFrag 申购定期 活动 理财底部弹窗Fragment-->
+    <!--<string name="earn_subscribe_btc_format">-->
+    <string name="fund_earn_subscribe_fixed_dialog_title">Subscribe to %s</string>
+    <!--<string name="account_earn_select_duration_day">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_select_duration_day">Select duration (days)</string>
+    <!--<string name="account_earn_lot_amount">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_amount">Amount</string>
+    <!--<string name="earn_valuable_format">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_available_amount_format">Available %1$s %2$s</string>
+    <!--<string name="earn_all">-->
+    <string name="fund_earn_subscribe_fixed_dialog_btn_max">Max</string>
+    <!--<string name="account_earn_enter_lot_amount">-->
+    <string name="fund_earn_subscribe_fixed_dialog_hint_amount">Enter Amount</string>
+    <!--<string name="earn_equal_crypto_format">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_equal_crypto_format">= %1$s %2$s</string>
+    <!--<string name="account_earn_est_interest_format">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_expected_interest_format">%1$s %2$s</string>
+    <!--<string name="account_earn_est_profit">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_expected_interest">Expected interest：</string>
+    <!--<string name="account_earn_lot_size">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_lot_size">Lot size</string>
+    <!--<string name="earn_lot">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_lot_unit">lot(s)</string>
+    <!--<string name="earn_lots">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_lots">lots</string>
+    <!--<string name="earn_subscribe_apy">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_apy">APY</string>
+    <!--<string name="account_earn_interest_per_lot">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_interest_per_lot">Interest per lot</string>
+    <!--<string name="account_earn_individual_max">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_individual_max">Individual max</string>
+    <!--<string name="account_earn_value_date">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_value_date">Value date</string>
+    <!--<string name="account_earn_redemption_date">-->
+    <string name="fund_earn_subscribe_fixed_dialog_id_redemption_date">Redemption date</string>
+    <!--<string name="earn_user_agreement">-->
+    <string name="fund_earn_subscribe_fixed_dialog_btn_user_agreement">User Agreement</string>
+    <!--<string name="earn_i_agree">-->
+    <string name="fund_earn_subscribe_fixed_dialog_tips_i_agree">"I have read and agree to "</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_subscribe_fixed_dialog_btn_confirm">Confirm</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_subscribe_fixed_dialog_btn_sold_out">Sold out</string>
+    <!--<string name="account_not_allowed_subscribe">-->
+    <string name="fund_earn_subscribe_fixed_dialog_tips_not_allowed_subscribe">You are not allowed to subscribe</string>
+    <!--<string name="account_not_allowed_redeem">-->
+    <string name="fund_earn_subscribe_fixed_dialog_tips_not_allowed_redeem">You are not allowed to redeem</string>
+    <!--<string name="account_earn_error_amount">-->
+    <string name="fund_earn_subscribe_fixed_dialog_toast_check_amount">Please check your amount</string>
+    <!--<string name="earn_min_sub_lot">-->
+    <string name="fund_earn_subscribe_flexible_dialog_toast_minimum_lot">"Minimum lot(s):"</string>
+
+    <!--EarnStakingFragment-->
+    <!--<string name="account_earn_bitmart_earn_staking">-->
+    <string name="fund_earn_staking_product_title">BitMart Staking</string>
+    <!--<string name="account_earn_bitmart_earn_staking_desc">-->
+    <string name="fund_earn_staking_product_desc">Dedicated to increasing user staking income</string>
+    <!--<string name="earn_defi_staking">-->
+    <string name="fund_earn_staking_product_type_defi_staking">Defi Staking</string>
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_staking_product_type_locked_staking">Locked Staking</string>
+    <!--<string name="earn_stake">-->
+    <string name="fund_earn_staking_product_btn_stake">Stake</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_staking_product_btn_sold_out">Sold out</string>
+    <!--<string name="earn_staking_est_apy">-->
+    <string name="fund_earn_staking_product_id_est_apy">Est.APY</string>
+
+    <!--SubscribeLockedFrag-->
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_subscribe_locked_dialog_title">Locked Staking</string>
+    <!--<string name="account_earn_select_duration_day">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_select_duration_day">Select duration (days)</string>
+    <!--<string name="earn_locked_amount">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_amount">Locked Amount</string>
+    <!--<string name="earn_valuable_format">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_available_amount_format">Available %1$s %2$s</string>
+    <!--<string name="earn_staking_max">-->
+    <string name="fund_earn_subscribe_locked_dialog_btn_max">Max</string>
+    <!--<string name="account_earn_enter_staking_amount">-->
+    <string name="fund_earn_subscribe_locked_dialog_hint_amount">Enter Amount</string>
+    <!--<string name="account_earn_est_interest_format">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_expected_interest_format">%1$s %2$s</string>
+    <!--<string name="account_earn_staking_est_profit">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_expected_interest">Expected interest:</string>
+    <!--<string name="earn_staking_est_apy">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_est_apy">Est.APY</string>
+    <!--<string name="earn_staking_minimum_limit">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_minimum_limit">Individual minimum limitation</string>
+    <!--<string name="earn_staking_maximum_limit">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_maximum_limit">Individual maximum limitation</string>
+    <!--<string name="account_earn_staking_value_date">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_value_date">Value date</string>
+    <!--<string name="account_earn_redemption_date">-->
+    <string name="fund_earn_subscribe_locked_dialog_id_redemption_date">Redemption date</string>
+    <!--<string name="earn_user_agreement">-->
+    <string name="fund_earn_subscribe_locked_dialog_btn_user_agreement">User Agreement</string>
+    <!--<string name="earn_i_agree">-->
+    <string name="fund_earn_subscribe_locked_dialog_tips_i_agree">"I have read and agree to "</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_subscribe_locked_dialog_btn_confirm">Confirm</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_subscribe_locked_dialog_btn_sold_out">Sold out</string>
+    <!--<string name="account_not_allowed_subscribe">-->
+    <string name="fund_earn_subscribe_locked_dialog_tips_not_allowed_subscribe">You are not allowed to subscribe</string>
+    <!--<string name="account_not_allowed_redeem">-->
+    <string name="fund_earn_subscribe_locked_dialog_tips_not_allowed_redeem">You are not allowed to redeem</string>
+    <!--<string name="account_earn_error_amount">-->
+    <string name="fund_earn_subscribe_locked_dialog_toast_check_amount">Please check your amount</string>
+    <!--<string name="earn_min_subscribe_amount">-->
+    <string name="fund_earn_subscribe_locked_dialog_toast_minimum_amount">"Minimum amount:"</string>
+    <!--<string name="earn_product_staking_locked_apy_summary">-->
+    <string name="fund_earn_subscribe_locked_dialog_toast_auto_subscribe">The APY is adjusted daily based on the on-chain staking rewards, and the specific APY is subject to the page display on the day.</string>
+
+    <!--EarnHistoryActivity-->
+    <!--<string name="earn_history_title">-->
+    <string name="fund_earn_history_title">Earn History</string>
+    <!--<string name="account_earn_history_tab_titles">-->
+    <string-array name="fund_earn_history_tab_titles">
+        <item>Savings</item>
+        <item>Staking</item>
+    </string-array>
+
+    <!--EarnHistoryTabFragment-->
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_saving_history_tab_subscribe_type_auto_subscribe">Auto Subscribe</string>
+    <!--<string name="earn_subscribe_normal">-->
+    <string name="fund_earn_saving_history_tab_subscribe_type_normal">Normal</string>
+
+    <!--EarnStakingHistoryTabFragment-->
+    <!--<string name="earn_locked_type_string">-->
+    <string name="fund_earn_staking_history_tab_subscribe_type_locked">Subscribe</string>
+    <!--<string name="earn_redeem">-->
+    <string name="fund_earn_staking_history_tab_subscribe_type_redeem">Redeem</string>
+    <!--<string name="earn_interest">-->
+    <string name="fund_earn_staking_history_tab_subscribe_type_interest">Interest</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_staking_history_tab_subscribe_type_auto_subscribe">Auto Subscribe</string>
+
+    <!--EarnHistoryFilterDialogFrag-->
+    <!--<string name="earn_filter">-->
+    <string name="fund_earn_history_filter_dialog_title">Filter</string>
+    <!--<string name="earn_product">-->
+    <string name="fund_earn_history_filter_dialog_menu_product">Product</string>
+    <!--<string name="earn_flexible">-->
+    <string name="fund_earn_history_filter_dialog_btn_product_flexible">Flexible</string>
+    <!--<string name="earn_fixed">-->
+    <string name="fund_earn_history_filter_dialog_btn_product_fixed">Fixed</string>
+    <!--<string name="earn_activities">-->
+    <string name="fund_earn_history_filter_dialog_btn_product_promotions">Promotions</string>
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_history_filter_dialog_btn_product_locked">Locked Staking</string>
+    <!--<string name="earn_type">-->
+    <string name="fund_earn_history_filter_dialog_menu_type">Type</string>
+    <!--<string name="earn_subscribe">-->
+    <string name="fund_earn_history_filter_dialog_btn_type_subscribe">Subscribe</string>
+    <!--<string name="earn_redeem">-->
+    <string name="fund_earn_history_filter_dialog_btn_type_redeem">Redeem</string>
+    <!--<string name="earn_interest">-->
+    <string name="fund_earn_history_filter_dialog_btn_type_interest">Interest</string>
+    <!--<string name="earn_locked_type_string">-->
+    <string name="fund_earn_history_filter_dialog_btn_type_locked">Subscribe</string>
+    <!--<string name="earn_date">-->
+    <string name="fund_earn_history_filter_dialog_menu_date">Date</string>
+    <!--<string name="account_coin">-->
+    <string name="fund_earn_history_filter_dialog_menu_coin">Coin</string>
+    <!--<string name="account_all">-->
+    <string name="fund_earn_history_filter_dialog_btn_coin_all">All</string>
+    <!--<string name="earn_reset">-->
+    <string name="fund_earn_history_filter_dialog_btn_reset">Reset</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_history_filter_dialog_btn_confirm">Confirm</string>
+    <!--<string name="account_assets_filter_over_range_notify">-->
+    <string name="fund_earn_history_filter_dialog_toast_over_range_notify">Please select start and end time within 90 days.</string>
+
+    <!--EarnHoldingProductDetailActivity-->
+    <!-- no string resource-->
+
+    <!--EarnFlexibleDetailFrag-->
+    <!--<string name="account_earn_assets_detail">-->
+    <string name="fund_earn_flexible_detail_title">DETAIL</string>
+    <!--<string name="earn_flexible_savings">-->
+    <string name="fund_earn_flexible_detail_product_type_flexible_savings">Flexible Savings</string>
+    <!--<string name="account_earn_total_amount">-->
+    <string name="fund_earn_flexible_detail_id_total_amount">Total amount</string>
+    <!--<string name="account_earn_accuring_interest">-->
+    <string name="fund_earn_flexible_detail_id_accuring_interest">Accuring interest</string>
+    <!--<string name="account_earn_today_subscription">-->
+    <string name="fund_earn_flexible_detail_id_today_subscription">Today\'s subscription</string>
+    <!--<string name="account_earn_redeeming">-->
+    <string name="fund_earn_flexible_detail_id_redeeming">Redeeming</string>
+    <!--<string name="account_earn_cumulative_interest">-->
+    <string name="fund_earn_flexible_detail_id_cumulative_interest">Cumulative interest</string>
+    <!--<string name="account_earn_est_annual_yield">-->
+    <string name="fund_earn_flexible_detail_id_estimated_annual_yield">Estimated annual yield</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_flexible_detail_btn_auto_subscribe_switch">Auto Subscribe</string>
+    <!--<string name="account_earn_flexible_tab_titles">-->
+    <string-array name="fund_earn_flexible_detail_tab_titles">
+        <item>Subscribe</item>
+        <item>Redeem</item>
+        <item>Interest</item>
+    </string-array>
+    <!--<string name="earn_redeem">-->
+    <string name="fund_earn_flexible_detail_btn_redeem">Redeem</string>
+    <!--<string name="earn_subscribe">-->
+    <string name="fund_earn_flexible_detail_btn_subscribe">Subscribe</string>
+    <!--<string name="earn_sold_out">-->
+    <string name="fund_earn_flexible_detail_btn_sold_out">Sold out</string>
+    <!--<string name="earn_auto_subscribe_summary">-->
+    <string name="fund_earn_flexible_detail_tips_auto_subscribe">Turning Auto-transfer on means your corresponding asset in the spot account will be used to subscribe flexible saving products every 24 hours; you can find the auto-subscribe history under </string>
+    <!--<string name="earn_auto_subscribe_summary2">-->
+    <!--suppress CheckTagEmptyBody -->
+    <string name="fund_earn_flexible_detail_summary_auto_subscribe">[Earn History]-[Flexible]</string>
+    <!--<string name="earn_detail_auto_subscribe_summary">-->
+    <string name="fund_earn_flexible_detail_dialog_toast_auto_subscribe">Every day at UTC + 0, BitMart will use the available balance of Spot Accounts to subscribe Flexible Savings.</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_flexible_detail_dialog_auto_subscribe_title">Auto Subscribe</string>
+
+    <!--EarnFlexibleTabFragment -->
+    <!--<string name="date">-->
+    <string name="fund_earn_flexible_tab_detail_id_date">Date</string>
+    <!--<string name="addr_type">-->
+    <string name="fund_earn_flexible_tab_detail_id_type">Type</string>
+    <!--<string name="account_earn_subscribe_amount">-->
+    <string name="fund_earn_flexible_tab_detail_id_subscribe_amount">Amount</string>
+    <!--<string name="earn_redemp_amount">-->
+    <string name="fund_earn_flexible_tab_detail_id_redeem_amount">Redemption amount</string>
+    <!--<string name="earn_interest_amount">-->
+    <string name="fund_earn_flexible_tab_detail_id_interest_amount">Amount</string>
+    <!--<string name="earn_auto_subscribe">-->
+    <string name="fund_earn_flexible_tab_detail_subscribe_type_auto_subscribe">Auto Subscribe</string>
+    <!--<string name="earn_subscribe_normal">-->
+    <string name="fund_earn_flexible_tab_detail_subscribe_type_normal">Normal</string>
+
+    <!--EarnRedeemFlexibleFrag -->
+    <!--<string name="account_earn_redeem_format">-->
+    <string name="fund_earn_redeem_flexible_dialog_title">Redeem %s</string>
+    <!--<string name="earn_amount">-->
+    <string name="fund_earn_redeem_flexible_dialog_id_amount">Amount</string>
+    <!--<string name="earn_valuable_format">-->
+    <string name="fund_earn_redeem_flexible_dialog_id_available_amount_format">Available %1$s %2$s</string>
+    <!--<string name="earn_all">-->
+    <string name="fund_earn_redeem_flexible_dialog_btn_max">Max</string>
+    <!--<string name="account_earn_enter_asset_amount">-->
+    <string name="fund_earn_redeem_flexible_dialog_hint_amount">Enter Amount</string>
+    <!--<string name="earn_user_agreement">-->
+    <string name="fund_earn_redeem_flexible_dialog_user_agreement">User Agreement</string>
+    <!--<string name="earn_i_agree">-->
+    <string name="fund_earn_redeem_flexible_dialog_tips_i_agree">"I have read and agree to "</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_redeem_flexible_dialog_btn_confirm">Confirm</string>
+    <!--<string name="account_earn_error_amount">-->
+    <string name="fund_earn_redeem_flexible_dialog_toast_check_amount">Please check your amount</string>
+
+    <!--EarnFixedDetailFrag-->
+    <!--<string name="account_earn_assets_detail">-->
+    <string name="fund_earn_fixed_detail_title">DETAIL</string>
+    <!--<string name="earn_fixed_savings">-->
+    <string name="fund_earn_fixed_detail_product_type_fixed_savings">Fixed Savings</string>
+    <!--<string name="earn_activities_savings">-->
+    <string name="fund_earn_fixed_detail_product_type_promotions">Promotions</string>
+    <!--<string name="account_earn_holding_lots">-->
+    <string name="fund_earn_fixed_detail_id_holding_lots">Holding (lots)</string>
+    <!--<string name="account_earn_total_amount">-->
+    <string name="fund_earn_fixed_detail_id_total_amount">Total amount</string>
+    <!--<string name="account_earn_esti_annual_yield">-->
+    <string name="fund_earn_fixed_detail_id_estimated_annual_yield">Estimated annual yield</string>
+    <!--<string name="account_earn_subscribe_date">-->
+    <string name="fund_earn_fixed_detail_id_subscribe_date">Subscribe date</string>
+    <!--<string name="account_earn_locked_period">-->
+    <string name="fund_earn_fixed_detail_id_locked_period">Locked period</string>
+    <!--<string name="earn_value_date">-->
+    <string name="fund_earn_fixed_detail_id_value_date">Value date</string>
+    <!--<string name="account_earn_redeemption_date">-->
+    <string name="fund_earn_fixed_detail_id_redemption_date">Redemption date</string>
+    <!--<string name="account_earn_est_profit">-->
+    <string name="fund_earn_fixed_detail_id_expected_interest">Expected interest：</string>
+    <!--<string name="earn_lot">-->
+    <string name="fund_earn_fixed_detail_lots">lot(s)</string>
+    <!--<string name="account_earn_days">-->
+    <string name="fund_earn_fixed_detail_days">days</string>
+
+    <!--StakingLockedDetailFrag-->
+    <!--<string name="detail">-->
+    <string name="fund_earn_locked_detail_title">Detail</string>
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_locked_detail_type_locked_staking">Locked Staking</string>
+    <!--<string name="earn_activities_savings">-->
+    <string name="fund_earn_locked_detail_type_promotions">Promotions</string>
+    <!--<string name="account_earn_total_Staked_amount">-->
+    <string name="fund_earn_locked_id_total_staked_amount">Total Staked Amount</string>
+    <!--<string name="account_earn_staking_annual_yield">-->
+    <string name="fund_earn_locked_detail_id_estimated_annual_yield">Estimated Annual Yield</string>
+    <!--<string name="account_earn_staking_subscribe_date">-->
+    <string name="fund_earn_locked_detail_id_subscribe_date">Subscribe Date</string>
+    <!--<string name="account_earn_locked_staking_period">-->
+    <string name="fund_earn_locked_detail_id_locked_period">Locked Period</string>
+    <!--<string name="earn_value_staking_date">-->
+    <string name="fund_earn_locked_detail_id_value_date">Value Date</string>
+    <!--<string name="account_earn_staking_redeemption_date">-->
+    <string name="fund_earn_locked_detail_id_redemption_date">Redemption Date</string>
+    <!--<string name="account_earn_staking_detail_est_profit">-->
+    <string name="fund_earn_locked_detail_id_expected_interest">Expected Interest</string>
+    <!--<string name="account_earn_days">-->
+    <string name="fund_earn_locked_detail_id_days">days</string>
+
+    <!--EarnProductTradeResultActivity-->
+    <!--<string name="earn_flexible_savings">-->
+    <string name="fund_earn_product_result_flexible_savings_title">Flexible Savings</string>
+    <!--<string name="earn_fixed_savings">-->
+    <string name="fund_earn_product_result_fixed_savings_title">Fixed Savings</string>
+    <!--<string name="earn_activities_savings">-->
+    <string name="fund_earn_product_result_promotions_title">Promotions</string>
+    <!--<string name="earn_locked_staking">-->
+    <string name="fund_earn_product_result_locked_staking_title">Locked Staking</string>
+    <!--<string name="earn_subscription_success">-->
+    <string name="fund_earn_product_result_status_subscription_success">Subscription Success!</string>
+    <!--<string name="earn_redemption_success">-->
+    <string name="fund_earn_product_result_status_redemption_success">Redemption Confirmed!</string>
+    <!--<string name="earn_locked_confirm">-->
+    <string name="fund_earn_product_result_status_locked_success">Lock Confirmed</string>
+    <!--<string name="earn_subscrip_amount">-->
+    <string name="fund_earn_product_result_id_subscription_amount">Subscription amount</string>
+    <!--<string name="earn_subscrip_date">-->
+    <string name="fund_earn_product_result_id_subscription_date">Date of subscription</string>
+    <!--<string name="earn_interest_date">-->
+    <string name="fund_earn_product_result_id_start_to_accrue_interest">Start to accrue interest</string>
+    <!--<string name="earn_redemp_date">-->
+    <string name="fund_earn_product_result_id_redemption_date">Redemption date</string>
+    <!--<string name="earn_yesterday_interest_date">-->
+    <string name="fund_earn_product_result_id_yesterday_interest">Earn yesterday’s interest</string>
+    <!--<string name="earn_redemp_amount">-->
+    <string name="fund_earn_product_result_id_redemption_amount">Redemption amount</string>
+    <!--<string name="earn_locked_amount">-->
+    <string name="fund_earn_product_result_id_locked_amount">Locked Amount</string>
+    <!--<string name="earn_stake_date">-->
+    <string name="fund_earn_product_result_id_stake_date">Date of subscription</string>
+    <!--<string name="earn_stake_interest_date">-->
+    <string name="fund_earn_product_result_id_stake_start_to_accrue_interest">Start to accrue interest</string>
+    <!--<string name="earn_stake_redemp_date">-->
+    <string name="fund_earn_product_result_id_stake_redemption_date">Redemption Date</string>
+    <!--<string name="earn_go_to_staking">-->
+    <string name="fund_earn_product_result_btn_goto_staking">Go to Staking</string>
+    <!--<string name="earn_go_to_earn">-->
+    <string name="fund_earn_product_result_btn_goto_earn">Go to Earn</string>
+    <!--<string name="earn_go_to_my_assets">-->
+    <string name="fund_earn_product_result_btn_goto_my_assets">Go to my Assets</string>
+
+    <!--EarnDistributionHistoryFragment-->
+    <!--同上 FiatDepositHistoryFragment FiatWithdrawHistoryFragment-->
+
+    <!--EarnDistributionFilterDialogFrag-->
+    <!--<string name="earn_filter">-->
+    <string name="fund_earn_history_distribution_filter_dialog_title">Filter</string>
+    <!--<string name="earn_date">-->
+    <string name="fund_earn_history_distribution_filter_dialog_menu_date">Date</string>
+    <!--<string name="account_coin">-->
+    <string name="fund_earn_history_distribution_filter_dialog_menu_coin">Coin</string>
+    <!--<string name="account_all">-->
+    <string name="fund_earn_history_distribution_filter_dialog_btn_coin_all">All</string>
+    <!--<string name="earn_reset">-->
+    <string name="fund_earn_history_distribution_filter_dialog_btn_reset">Reset</string>
+    <!--<string name="confirm">-->
+    <string name="fund_earn_history_distribution_filter_dialog_btn_confirm">Confirm</string>
+    <!--<string name="account_assets_filter_over_range_notify">-->
+    <string name="fund_earn_history_distribution_filter_dialog_toast_over_range_notify">Please select start and end time within 90 days.</string>
+
+    <!-- showAsDropDownWithArrow -->
+    <!--<string name="earn_auto_subscribe_summary">-->
+    <string name="fund_earn_popup_window_tips_auto_subscribe">Turning Auto-transfer on means your corresponding asset in the spot account will be used to subscribe flexible saving products every 24 hours; you can find the auto-subscribe history under </string>
+
+
+    <string name="fund_test_1">fund111111.</string>
+    <string name="fund_test_2">fund22222</string>
+    <string name="fund_test_3">fund33333-----modify</string>
+    <string name="fund_test_4">fund4444444.-----modify</string>
+    <string name="fund_test_5">fund55555555555</string>
+    <string name="fund_test_6">fund66666666666666666666666666666666666.</string>
+    <string name="fund_test_7">fund-addddddddd.</string>
+</resources>
