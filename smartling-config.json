@@ -94,6 +94,12 @@
                     "application" : "zh-Hans"
                 }
             ],
+         }，
+         {
+            "type"                      : "json",
+            "pathRegex"                 : "en.json",
+            "translationPathExpression" : "/${originalFile.name}_translated_/${locale}.${originalFile.extension}",
+            "translationCommitMessage"  : "Task Mobile translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
          }
      ]
 }
