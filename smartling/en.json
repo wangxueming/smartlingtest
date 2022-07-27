@@ -9,7 +9,7 @@
 	"account_login_btn_login": "Sign In",
 	"account_login_tips_no_register": "Not registered?",
 	"account_login_btn_sign_up": "Sign Up",
-	"account_login_toast_succ": "Logged in Successfully",
+	"account_login_toast_succ": "Signed in successfully",
 	"account_login_alert_invalid_phone": "Your phone number is invalid. Please enter again.",
 	"account_login_alert_invalid_email": "Your email address is invalid. Please enter again.",
 	"account_login_alert_null_pwd": "Enter your password",
