@@ -37,28 +37,28 @@
      //                                See https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-java
      "resourceSets": [
          // Minimal recourse set definition. Translations won't be pushed back.
-         {
-            "type"      : "javaProperties",
-            "pathRegex" : "messages\\/.*\\.properties"
-         },
+         //{
+         //   "type"      : "javaProperties",
+         //   "pathRegex" : "messages\\/.*\\.properties"
+         //},
 
          // Translation set for docx files, translation results will be put to "translated" sub-folder and translated locale will be added to result file names.
          // Custom commit message is also defined
-         {
-            "type"                      : "docx",
-            "pathRegex"                 : "documentation\\/.*\\.docx",
-            "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
-            "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
-         },
+         //{
+         //   "type"                      : "docx",
+         //   "pathRegex"                 : "documentation\\/.*\\.docx",
+         //   "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+         //   "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
+         //},
 
          // Translation set with manual authorization. You should go to Smartling and authorize strings for translation after upload.
          // Original resources have "_en" suffix and this suffix will be replaced with target locale in translations.
-         {
-            "type"                      : "android",
-            "authorizeContent"          : false,
-            "pathRegex"                 : "b_account\\/src\\/main\\/res\\/values\\/test_strings\\.xml",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"
-         },
+         //{
+         //   "type"                      : "android",
+         //   "authorizeContent"          : false,
+         //   "pathRegex"                 : "b_account\\/src\\/main\\/res\\/values\\/test_strings\\.xml",
+         //   "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"
+         //},
 
          // Resource set includes all properties files from /web/messages/en folder and all it sub-folders.
          // Named group <path> is defined in the pathRegex value. For this group variable "path" will be created with corresponded value during
@@ -68,36 +68,37 @@
          //                                                           Custom locale name is defined in this file in "locales" array.
          //     /web/messages/en/admin/main_screen/title.properties - translation for zh-TW locale will be placed to
          //                                                           /web/messages/zh-Hant/admin/main_screen/title.properties
-         {
-             "type"                      : "javaProperties",
-             "authorizeContent"          : true,
-             "pathRegex"                 : "web\\/messages\\/en/(?<path>.*)\\.properties",
-             "translationPathExpression" : "web/messages/${locale}/${path}.${originalFile.extension}",
-             "translationCommitMessage"  : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
-         },
+         //{
+         //    "type"                      : "javaProperties",
+         //    "authorizeContent"          : true,
+         //    "pathRegex"                 : "web\\/messages\\/en/(?<path>.*)\\.properties",
+         //    "translationPathExpression" : "web/messages/${locale}/${path}.${originalFile.extension}",
+         //    "translationCommitMessage"  : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
+         //},
 
          // Translate all properties files from /msg folder and put translations to a /msg sub-folder that has the same name as translated locale.
          // Two additional Smartling directives are provided.
          // Also files will be submitted only for zh-CN locale
-         {
-            "type"                      : "javaProperties",
-            "pathRegex"                 : "msg\\/.*\\.properties",
-            "translationPathExpression" : "msg/${locale}/${originalFile.name}",
-            "smartlingDirectives"       : [
-                 "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
-                 "smartling.variants_enabled = true"
-            ],
-            // If "locales" is defined then it overrides global configuration in the top of this config
-            "locales": [
-                {
-                    "smartling" : "zh-CN",
-                    "application" : "zh-Hans"
-                }
-            ],
-         },
+         //{
+         //   "type"                      : "javaProperties",
+         //   "pathRegex"                 : "msg\\/.*\\.properties",
+         //   "translationPathExpression" : "msg/${locale}/${originalFile.name}",
+         //   "smartlingDirectives"       : [
+         //        "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
+         //        "smartling.variants_enabled = true"
+         //   ],
+         //   // If "locales" is defined then it overrides global configuration in the top of this config
+         //   "locales": [
+         //       {
+         //           "smartling" : "zh-CN",
+         //           "application" : "zh-Hans"
+         //       }
+         //   ],
+         //},
          {
             "type"                      : "json",
             "pathRegex"                 : "en.json",
+            "authorizeContent"          : false,
             "translationPathExpression" : "/${originalFile.name}_translated_/${locale}.${originalFile.extension}",
             "translationCommitMessage"  : "Task Mobile translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
          }
