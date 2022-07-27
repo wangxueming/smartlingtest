@@ -97,7 +97,7 @@
          //},
          {
             "type"                      : "json",
-            "pathRegex"                 : "en.json",
+            "pathRegex"                 : "smartling\\/en.json",
             "authorizeContent"          : false,
             "translationPathExpression" : "/${originalFile.name}_translated_/${locale}.${originalFile.extension}",
             "translationCommitMessage"  : "Task Mobile translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
