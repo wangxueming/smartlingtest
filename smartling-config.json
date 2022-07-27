@@ -94,7 +94,7 @@
                     "application" : "zh-Hans"
                 }
             ],
-         }，
+         },
          {
             "type"                      : "json",
             "pathRegex"                 : "en.json",
