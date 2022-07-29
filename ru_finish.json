@@ -3,16 +3,5 @@
   "account_login_tab_phone" : "Телефон",
   "account_login_tab_email" : "Электронная почта",
   "account_login_hint_phone" : "Введите свой номер телефона",
-  "account_login_hint_email" : "Введите свой адрес электронной почты",
-  "account_login_hint_pwd" : "Введите пароль",
-  "account_login_btn_forgot_pwd" : "Forgot Password?",
-  "account_login_btn_login" : "Войти",
-  "account_login_tips_no_register" : "Не зарегистрированы?",
-  "account_login_btn_sign_up" : "Зарегистрироваться",
-  "account_login_toast_succ" : "Авторизация успешна",
-  "account_login_alert_invalid_phone" : "Ваш номер телефона недействителен. Проверьте вводимые данные.",
-  "account_login_alert_invalid_email" : "Ваш адрес электронной почты недействителен. Проверьте вводимые данные.",
-  "account_login_alert_null_pwd" : "Введите пароль",
-  "account_login_alert_invalid_title" : "Примечание",
-  "account_login_alert_invalid_btn_confirm" : "Подтверждение"
+  "account_login_hint_email" : "Введите свой адрес электронной почты"
 }

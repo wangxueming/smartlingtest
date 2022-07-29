@@ -3,16 +3,5 @@
   "account_login_tab_phone" : "電話番号",
   "account_login_tab_email" : "メールアドレス",
   "account_login_hint_phone" : "電話番号を入力してください",
-  "account_login_hint_email" : "メールアドレスを入力してください",
-  "account_login_hint_pwd" : "パスワードを入力してください",
-  "account_login_btn_forgot_pwd" : "Forgot Password?",
-  "account_login_btn_login" : "サインイン",
-  "account_login_tips_no_register" : "まだ登録していませんか？",
-  "account_login_btn_sign_up" : "登録",
-  "account_login_toast_succ" : "成功にサインインしました",
-  "account_login_alert_invalid_phone" : "電話番号が無効です。もう一度入力してください。",
-  "account_login_alert_invalid_email" : "メールアドレスが無効です。もう一度入力してください。",
-  "account_login_alert_null_pwd" : "パスワードを入力してください",
-  "account_login_alert_invalid_title" : "メモ",
-  "account_login_alert_invalid_btn_confirm" : "確認"
+  "account_login_hint_email" : "メールアドレスを入力してください"
 }
