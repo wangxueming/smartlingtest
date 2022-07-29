@@ -16,7 +16,7 @@
          },
          {
              "smartling": "ko-KR",
-             "application": "kr"
+             "application": "ko"
          },
          {
              "smartling": "es-ES",
@@ -24,7 +24,7 @@
          },
          {
              "smartling": "ru-RU",
-             "application": "tr"
+             "application": "ru"
          }
      ],
 
