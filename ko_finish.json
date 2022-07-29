@@ -3,5 +3,7 @@
   "account_login_tab_phone" : "전화번호",
   "account_login_tab_email" : "이메일",
   "account_login_hint_phone" : "전화번호를 입력하세요",
-  "account_login_hint_email" : "이메일 주소를 입력하세요"
+  "account_login_hint_email" : "이메일 주소를 입력하세요",
+  "account_login_hint_pwd" : "비밀번호를 입력하세요",
+  "account_login_btn_login" : "로그인"
 }
