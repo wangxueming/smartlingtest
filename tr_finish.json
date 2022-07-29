@@ -1,0 +1,18 @@
+{
+  "account_login_title" : "Merhaba,\nTekrar hoş geldiniz",
+  "account_login_tab_phone" : "Telefon",
+  "account_login_tab_email" : "E-posta",
+  "account_login_hint_phone" : "Telefon numaranızı girin",
+  "account_login_hint_email" : "E-posta adresinizi girin",
+  "account_login_hint_pwd" : "Şifrenizi girin",
+  "account_login_btn_forgot_pwd" : "Forgot Password?",
+  "account_login_btn_login" : "Giriş Yap",
+  "account_login_tips_no_register" : "Henüz kaydolmadınız mı?",
+  "account_login_btn_sign_up" : "Kaydol",
+  "account_login_toast_succ" : "Giriş Başarılı",
+  "account_login_alert_invalid_phone" : "Telefon numaranız geçersiz. Lütfen tekrar girin.",
+  "account_login_alert_invalid_email" : "E-posta adresiniz geçersiz. Lütfen tekrar girin.",
+  "account_login_alert_null_pwd" : "Şifrenizi girin",
+  "account_login_alert_invalid_title" : "Uyarı",
+  "account_login_alert_invalid_btn_confirm" : "Onayla"
+}
