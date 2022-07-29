@@ -4,6 +4,6 @@
   "account_login_tab_email" : "メールアドレス",
   "account_login_hint_phone" : "電話番号を入力してください",
   "account_login_hint_email" : "メールアドレスを入力してください",
-  "account_login_hint_pwd" : "パスワードを入力してください",
-  "account_login_btn_login" : "サインイン"
+  "account_login_btn_login2" : "Sign In",
+  "account_login_btn_login_3" : "Sign In"
 }

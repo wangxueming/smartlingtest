@@ -4,6 +4,6 @@
   "account_login_tab_email" : "Электронная почта",
   "account_login_hint_phone" : "Введите свой номер телефона",
   "account_login_hint_email" : "Введите свой адрес электронной почты",
-  "account_login_hint_pwd" : "Введите пароль",
-  "account_login_btn_login" : "Войти"
+  "account_login_btn_login2" : "Sign In",
+  "account_login_btn_login_3" : "Sign In"
 }

@@ -4,6 +4,6 @@
   "account_login_tab_email" : "E-posta",
   "account_login_hint_phone" : "Telefon numaranızı girin",
   "account_login_hint_email" : "E-posta adresinizi girin",
-  "account_login_hint_pwd" : "Şifrenizi girin",
-  "account_login_btn_login" : "Giriş Yap"
+  "account_login_btn_login2" : "Sign In",
+  "account_login_btn_login_3" : "Sign In"
 }
