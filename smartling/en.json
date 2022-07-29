@@ -3,5 +3,7 @@
 	"account_login_tab_phone": "Phone",
 	"account_login_tab_email": "Email",
 	"account_login_hint_phone": "Enter your phone number",
-	"account_login_hint_email": "Enter your email address"
+	"account_login_hint_email": "Enter your email address",
+	"account_login_hint_pwd": "Enter your password",
+	"account_login_btn_login": "Sign In"
 }
