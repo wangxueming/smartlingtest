@@ -1,0 +1,18 @@
+{
+  "account_login_title" : "안녕하세요,\n반갑습니다.",
+  "account_login_tab_phone" : "전화번호",
+  "account_login_tab_email" : "이메일",
+  "account_login_hint_phone" : "전화번호를 입력하세요",
+  "account_login_hint_email" : "이메일 주소를 입력하세요",
+  "account_login_hint_pwd" : "비밀번호를 입력하세요",
+  "account_login_btn_forgot_pwd" : "Forgot Password?",
+  "account_login_btn_login" : "로그인",
+  "account_login_tips_no_register" : "가입하지 않으셨습니까?",
+  "account_login_btn_sign_up" : "회원가입",
+  "account_login_toast_succ" : "로그인 성공",
+  "account_login_alert_invalid_phone" : "전화번호가 유효하지 않습니다. 다시 입력하세요.",
+  "account_login_alert_invalid_email" : "이메일 주소가 유효하지 않습니다. 다시 입력하세요.",
+  "account_login_alert_null_pwd" : "비밀번호를 입력하세요",
+  "account_login_alert_invalid_title" : "알림",
+  "account_login_alert_invalid_btn_confirm" : "확인"
+}
