@@ -9,6 +9,22 @@
          {
              "smartling" : "ja-JP",
              "application" : "ja"
+         },
+         {
+             "smartling": "tr-TR",
+             "application": "tr"
+         },
+         {
+             "smartling": "ko-KR",
+             "application": "kr"
+         },
+         {
+             "smartling": "es-ES",
+             "application": "es"
+         },
+         {
+             "smartling": "ru-RU",
+             "application": "tr"
          }
      ],
 
