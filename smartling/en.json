@@ -4,6 +4,10 @@
 	"account_login_tab_email": "Email",
 	"account_login_hint_phone": "Enter your phone number",
 	"account_login_hint_email": "Enter your email address",
-	"account_login_btn_login2": "Sign In",
+	"account_login_alert_invalid_phone": "Your phone number is invalid, please try again",
+	"account_login_alert_invalid_email": "Your email address is invalid, please try again",
+	"account_login_alert_null_pwd": "Enter your password",
+	"account_login_alert_invalid_title": "Note",
+	"account_login_alert_invalid_btn_confirm": "OK",
 	"account_login_btn_login_3": "Sign In"
 }
